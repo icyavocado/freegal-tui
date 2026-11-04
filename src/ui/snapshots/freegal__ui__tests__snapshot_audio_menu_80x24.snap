@@ -1,0 +1,28 @@
+---
+source: src/ui/tests.rs
+expression: backend
+---
+"♪ freegal  [● Home] │ My Music │ Queue │ History │ Downloads       not signed in"
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"         ╭ audio output ──────────────────────────────────────────────╮         "
+"         │    pipewire System default (PipeWire)                      │         "
+"         │  ▶ pipewire/bluez_output.68_F2_1F_3E… Obsidian 2           │         "
+"         │    alsa/sysdefault:CARD=sofsoundwire sof-soundwire speake  │         "
+"         │                                                            │         "
+"         │  Enter: use · Esc: cancel                                  │         "
+"         ╰────────────────────────────────────────────────────────────╯         "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit "
+"                                                                                "
+"                                                                                "

@@ -1,0 +1,20 @@
+// user/downloaded/songsIds — GET, live capture (patron with ZERO downloads)
+// Empty case: success:false + rc 174 "No song found download by patron. (174)".
+// Treat rc 174 as an EMPTY redownload list, not an error. Success shape (with items)
+// still uncaptured — parse tolerantly (data.items or data as list) until the user
+// consents to a downloads/song capture (spends 1 weekly credit).
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api.freegalmusic.com/v1/user/downloaded/songsIds?language=en"
+  },
+  "response": {
+    "http_status": 200,
+    "body": {
+      "success": false,
+      "responseCode": 174,
+      "responseMessage": "No song found download by patron. (174)",
+      "href": "https://api.freegalmusic.com/v1/user/downloaded/songsIds?language=en"
+    }
+  }
+}

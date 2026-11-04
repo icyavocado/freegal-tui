@@ -1,0 +1,44 @@
+// Capture: GET /v1/library?subdomain=demopubliclibrary&language=en (anon browser OK)
+// Provenance: chrome-devtools capture reqid 145, 2026-11-02. Envelope has `href`.
+// Shape: data.library.items[0] — DOUBLE-WRAPPED (library wrapper + items array).
+// Success responseCode = 9 ("Library information.").
+// NOTE: this library's true subdomain is "demopubliclibrary" (NOT "demo").
+// Extra keys vs our model: authenticationMethod, authType, cities[], state, country,
+// status, ageBlock, blockExplicitContent, libraryMultiAuthentication, downloadLimitMet.
+{
+  "success": true,
+  "responseCode": 9,
+  "responseMessage": "Library information.",
+  "href": "https://api.freegalmusic.com/v1/library?subdomain=demopubliclibrary&language=en",
+  "data": {
+    "library": {
+      "items": [
+        {
+          "libraryId": 1320,
+          "name": "Demo Public Library",
+          "domainName": "demopubliclibrary",
+          "homeUrl": "https://www.demolibrary.ca",
+          "imageUrl": "https://music.libraryideas.com/freegalmusic/prod/libraryimg/freegal_logo_1680634117_1320.png",
+          "authenticationMethod": "sip2_var",
+          "authType": 2,
+          "imageDisplay": true,
+          "logoutUrl": "https://www.demolibrary.ca",
+          "cities": [{ "city": "Demo" }],
+          "state": "AB",
+          "country": "CA",
+          "status": "active",
+          "ageBlock": "0",
+          "allowBooksContent": 0,
+          "language": "en",
+          "libraryScope": 2,
+          "blockExplicitContent": false,
+          "testingMode": false,
+          "libraryAccess": true,
+          "libraryMultiAuthentication": 0,
+          "downloadLimitMet": true,
+          "freegalOptoutEmailNotification": "0"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+---
+source: src/ui/tests.rs
+expression: backend
+---
+"♪ freegal  [● Home] │ My Music │ Queue │ History │ Downloads       not signed in"
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"         ╭ download ──────────────────────────────────────────────────╮         "
+"         │  Some Long Song Title That Should Truncate At Thirty Char  │         "
+"         │  Abba · Arrival                                            │         "
+"         │  Uses 1 credit                                             │         "
+"         │  y: confirm · n/Esc/Enter: cancel                          │         "
+"         │                                                            │         "
+"         │                                                            │         "
+"         ╰────────────────────────────────────────────────────────────╯         "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit "
+"                                                                                "
+"                                                                                "

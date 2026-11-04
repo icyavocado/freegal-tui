@@ -1,0 +1,85 @@
+// album/songs — GET album tracks, live capture Nov 2026 (album HOW TO QUIT SMOKING)
+// THE album-page track endpoint: GET /v1/album/songs?albumId=<id>&provider=1&language=en
+// ("songs?albumId" does NOT exist — 404s with {error:{code,message}}, not an envelope.)
+// rc 17 "List of album's songs." data.album.items[0] = ONE album object; songs is a
+// DIRECT array on the item (no {items} wrapper). Song objects here have NO streamUrl —
+// playback URLs come later from album/streaming-songs or check-streaming-availability.
+// trackNumber is the album ordering key (# column). copyrightDate = year source.
+// Trimming note: first 2 songs complete; the rest summarized to {songId,title,trackNumber}.
+// imageUrl ?token= values REDACTED.
+{
+  "success": true,
+  "responseCode": 17,
+  "responseMessage": "List of album's songs.",
+  "data": {
+    "album": {
+      "items": [
+        {
+          "artist": {
+            "artistId": "RG9taW5pYyBGaWtl",
+            "name": "Dominic Fike"
+          },
+          "albumId": 9999900418547,
+          "title": "HOW TO QUIT SMOKING",
+          "provider": 1,
+          "explicit": true,
+          "genre": "Alternative",
+          "label": "Columbia",
+          "copyright": "(P) 2026 Columbia Records, a Division of Sony Music Entertainment, under exclusive license",
+          "copyrightDate": 2026,
+          "imageUrl": "https://music.libraryideas.com/171/030/117/000/602/334/241/A10301A0006023342Y_T-1219029339176_Image.jpg?token=REDACTED",
+          "streamStatus": true,
+          "songs": [
+            {
+              "artist": {
+                "artistId": "RG9taW5pYyBGaWtl",
+                "name": "Dominic Fike"
+              },
+              "songId": 378849477,
+              "albumId": 9999900418547,
+              "title": "WALLFLOWER",
+              "provider": 1,
+              "explicit": true,
+              "genre": "Alternative",
+              "trackNumber": 1,
+              "sampleDurationSec": 30,
+              "fullDurationSec": 178,
+              "downloadStatus": true,
+              "streamStatus": true
+            },
+            {
+              "artist": {
+                "artistId": "RG9taW5pYyBGaWtlICYgR2FicmllbCBKYWNvYnkgJiBFbW1hIE9naWVy",
+                "name": "Dominic Fike & Gabriel Jacoby & Emma Ogier"
+              },
+              "songId": 378849484,
+              "albumId": 9999900418547,
+              "title": "SMALL TOWN",
+              "provider": 1,
+              "explicit": false,
+              "genre": "Alternative",
+              "trackNumber": 2,
+              "sampleDurationSec": 30,
+              "fullDurationSec": 169,
+              "downloadStatus": true,
+              "streamStatus": true
+            },
+            { "songId": 378849485, "title": "PANGEA", "trackNumber": 3 },
+            { "songId": 378849486, "title": "CASTING CALL", "trackNumber": 4 },
+            { "songId": 378849487, "title": "DOOMSDAY", "trackNumber": 5 },
+            { "songId": 378849488, "title": "HONEYLOVE", "trackNumber": 6 },
+            { "songId": 378849489, "title": "WHITE KEYS", "trackNumber": 7 },
+            { "songId": 378849490, "title": "SQUEEZE", "trackNumber": 8 },
+            { "songId": 378849491, "title": "RENO", "trackNumber": 9 },
+            { "songId": 378849478, "title": "LILY WAS A CAVALIER", "trackNumber": 10 },
+            { "songId": 378849479, "title": "CABBY", "trackNumber": 11 },
+            { "songId": 378849480, "title": "CITY OF STEEL", "trackNumber": 12 },
+            { "songId": 378849481, "title": "NOT THE SPIRIT", "trackNumber": 13 },
+            { "songId": 378849482, "title": "WAR MACHINE", "trackNumber": 14 },
+            { "songId": 378849483, "title": "SPOTLIGHT / INNER CHILD", "trackNumber": 15 }
+          ]
+        }
+      ]
+    }
+  }
+}

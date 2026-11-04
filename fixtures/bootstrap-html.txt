@@ -1,0 +1,7 @@
+> Captured live from https://demo.freegalmusic.com on 2026-11-02.
+> The `<input id="authToken">` value is HTML-escaped JSON — this is exactly what the
+> Rust bootstrap parser must handle (`&quot;` entities). Tokens served here are
+> visitor-bootstraps (rotated, 24 h TTL); committed fixtures keep the STRUCTURE and
+> redact the actual token bytes.
+
+<input type="hidden" id="authToken" name="token" value="{&quot;accessToken&quot;:&quot;REDACTED&quot;,&quot;expiresIn&quot;:86400,&quot;tokenType&quot;:&quot;Bearer&quot;,&quot;refreshToken&quot;:&quot;REDACTED&quot;}"/>

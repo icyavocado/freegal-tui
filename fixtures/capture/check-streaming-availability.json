@@ -1,0 +1,28 @@
+// check-streaming-availability — PUT, live capture (rc 202 = success)
+// This is the endpoint the web player uses to start ONE song. Returns a signed HLS
+// (m3u8) URL on streaming.libraryideas.com — NOT a direct progressive URL.
+// streamUrl shape: <path>/<song>/<file>.mp4/manifest.m3u8?token=<32-hex>
+// timerCallTime: 416 — purpose unverified (client does not reference it); ignored.
+{
+  "request": {
+    "method": "PUT",
+    "url": "https://api.freegalmusic.com/v1/check-streaming-availability?language=en",
+    "content_type": "application/json",
+    "body": { "songId": 378769666, "provider": 1 }
+  },
+  "response": {
+    "http_status": 200,
+    "body": {
+      "success": true,
+      "responseCode": 202,
+      "responseMessage": "Song validated successfully.",
+      "href": "https://api.freegalmusic.com/v1/check-streaming-availability?language=en",
+      "data": {
+        "timeRemaining": "UNLIMITED",
+        "streamUrl": "https://streaming.libraryideas.com/171/032/821/001/271/600/934/TateMcRae_Housewife_Housewife_1.mp4/manifest.m3u8?token=REDACTED",
+        "timerCallTime": 416
+      }
+    }
+  },
+  "note": "sample token is expired; shape is what matters. mpv plays the m3u8 directly (HLS demuxer)."
+}

@@ -1,0 +1,28 @@
+---
+source: src/ui/tests.rs
+expression: backend
+---
+"♪ freegal  [● Home] │ My Music │ Queue │ History │ Downloads       not signed in"
+"A Night at the Opera                                                            "
+"Queen  ·  1975  ·  Rock                                                         "
+"                                                                                "
+"#    Title                                                                Len   "
+"     Death on Two Legs (Dedicated to...)                                  3:43  "
+"     Bohemian Rhapsody                                                    5:55  "
+"     You're My Best Friend                                                2:52  "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit "
+"                                                                                "
+"                                                                                "

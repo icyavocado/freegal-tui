@@ -1,0 +1,28 @@
+---
+source: src/ui/tests.rs
+expression: backend
+---
+"♪ freegal  Home │ My Music │ Queue │ History │ [● Downloads]       not signed in"
+"                                                                                "
+"Title                Artist               File                                  "
+"Bohemian Rhapsody    Queen                01 Bohemian Rhapsody.mp3              "
+"Some Long Song Titl  Abba                 02 Long Title.mp3                     "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit "
+"                                                                                "
+"                                                                                "

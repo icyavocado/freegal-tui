@@ -1,0 +1,28 @@
+---
+source: src/ui/tests.rs
+expression: backend
+---
+"♪ freegal  [● Home] │ My Music │ Queue │ History │ Downloads       not signed in"
+"                                                                                "
+"                                                                                "
+"  ╭ help ────────────────────────────────────────────────────────────────────╮  "
+"  │  Esc closes · keys are focus-scoped                                      │  "
+"  │                                                                          │  "
+"  │  1-5 / s m q d h switch tab        /               edit search / filter  │  "
+"  │  Enter           play now          a / A           append / play next    │  "
+"  │  y               download          S               cycle sort            │  "
+"  │  D               clear history     Space           play-pause            │  "
+"  │  n / p           next / prev       , / .           seek 5s               │  "
+"  │  - / + / =       volume            l               loop current song     │  "
+"  │  d               remove queue row  J / K           move queue row        │  "
+"  │  Esc             back              g / G           top / bottom          │  "
+"  │  R / e           retry / error log ?               help                  │  "
+"  │  o               audio output      Ctrl-Q / Ctrl-C quit                  │  "
+"  │                                                                          │  "
+"  │  personal use · your library card · human pace                           │  "
+"  │                                                                          │  "
+"  ╰──────────────────────────────────────────────────────────────────────────╯  "
+"                                                                                "
+"[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit "
+"                                                                                "
+"                                                                                "

@@ -1,0 +1,48 @@
+// Capture: GET /v1/user/details?language=en (browser, logged-in session)
+// Provenance: chrome-devtools capture of reqid 362, demopubliclibrary.freegalmusic.com
+// session, 2026-11-02. Tokens redacted.
+//
+// Request headers (exact):
+//   authorization: Bearer <86-char accessToken>      <- the login-era bootstrap token
+//   authenticationtoken: <authenticationToken>        <- lowercase header name
+//   referer: https://demopubliclibrary.freegalmusic.com/
+//   origin: https://demopubliclibrary.freegalmusic.com
+//   content-type: application/json
+//   accept: application/json, text/plain, */*
+//
+// NOTE: replaying the SAME authenticationtoken with a FRESH homepage bootstrap token
+// returns success:false / responseCode 200 / "Sorry, you are currently not logged into
+// ..." — the server pairs the bootstrap accessToken with its login session. rc 200 is
+// a FAILURE code here; rc 169 is this endpoint's success code.
+//
+// Shape: data.items is a SINGLE OBJECT (not an array). Library nested under items.
+// streamingTimeRemaining/TimeLimit are string "UNLIMITED" at this library.
+{
+  "success": true,
+  "responseCode": 169,
+  "responseMessage": "Patron detail",
+  "href": "https://api.freegalmusic.com/v1/user/details?language=en",
+  "data": {
+    "items": {
+      "patronId": "00000000000000",
+      "libraryId": 1320,
+      "availabledownload": 5,
+      "downloadLimit": 5,
+      "streamingTimeRemaining": "UNLIMITED",
+      "streamingTimeLimit": "UNLIMITED",
+      "library": {
+        "libraryId": 1320,
+        "libraryName": "Demo Public Library",
+        "domainName": "demopubliclibrary",
+        "libraryScope": 2,
+        "libraryStatus": "active",
+        "libraryLanguage": "en",
+        "libraryCountry": "CA",
+        "authenticationMethod": "sip2_var",
+        "freegalOptoutEmailNotification": "0",
+        "downloadLimitMet": false,
+        "shareUrl": "https://demopubliclibrary.freegalmusic.com/"
+      }
+    }
+  }
+}

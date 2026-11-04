@@ -1,0 +1,339 @@
+// Probe: GET playlist/songs?playlistId=397967&provider=1 — captured 2026-11-04 via logged-in patron (demo) as live-API feasibility verification for the Home tab; drill-down returns the same Page<Song> shape as search.
+{
+  "success": true,
+  "responseCode": 17,
+  "responseMessage": "List of songs.",
+  "href": "https://api.freegalmusic.com/v1/playlist/songs?playlistId=397967&provider=1&offset=0&limit=10",
+  "data": {
+    "songs": {
+      "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=playlist/397967",
+      "items": [
+        {
+          "album": {
+            "artist": {
+              "artistId": "R2FicmllbGUgQmFnbmF0aQ",
+              "name": "Gabriele Bagnati"
+            },
+            "albumId": 9983111909624,
+            "title": "Prokofiev Dance of the Knights Piano Variation (From Romeo and Juliet, Op. 64, Arr. for Piano by Jan",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Classical",
+            "label": "Masterworks/Sony Music",
+            "copyright": "(P) 2024 Sony Music Entertainment Germany GmbH",
+            "copyrightDate": 2024,
+            "imageUrl": "https://music.libraryideas.com/171/030/117/000/531/514/230/A10301A0005315142N_T-1219025701229_Image.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "R2FicmllbGUgQmFnbmF0aQ",
+            "name": "Gabriele Bagnati"
+          },
+          "songId": 35204358,
+          "albumId": 9983111909624,
+          "title": "Prokofiev Dance of the Knights Piano Variation (From Romeo and Juliet, Op. 64, Arr. for Piano by Jan",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Classical",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 171,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/9983111909624/1"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "UmFjaGVsIFBvcnRtYW4",
+              "name": "Rachel Portman"
+            },
+            "albumId": 34335333,
+            "title": "Good Night You Kings",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Classical Crossover",
+            "label": "Sony Classical/Sony Music",
+            "copyright": "(P) 2022 Sony Music Entertainment Germany GmbH",
+            "copyrightDate": 2022,
+            "imageUrl": "https://music.libraryideas.com/171/030/117/000/478/239/68/A10301A00047823968_T-1024022117804_Image.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "UmFjaGVsIFBvcnRtYW4",
+            "name": "Rachel Portman"
+          },
+          "songId": 34869680,
+          "albumId": 34335333,
+          "title": "Good Night You Kings (from \"The Cider House Rules\", Arr. for Piano)",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Classical Crossover",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 154,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/34335333/1"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "QWxiYW4gQ2xhdWRpbg",
+              "name": "Alban Claudin"
+            },
+            "albumId": 34314801,
+            "title": "Le clair de lune",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Classical Crossover",
+            "label": "Masterworks",
+            "copyright": "(P) 2021 Taktic Music under exclusive licence to Sony Music France Entertainment SAS",
+            "copyrightDate": 2021,
+            "imageUrl": "https://music.libraryideas.com/171/030/117/000/467/561/436/A10301A0004675614T_T-1024021227947_Image.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "QWxiYW4gQ2xhdWRpbg",
+            "name": "Alban Claudin"
+          },
+          "songId": 34761876,
+          "albumId": 34314801,
+          "title": "Le clair de lune",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Classical Crossover",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 248,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/34314801/1"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "T2xpdmlhIEJlbGxp",
+              "name": "Olivia Belli"
+            },
+            "albumId": 34301852,
+            "title": "As I Was",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Solo Instrumental",
+            "label": "XXIM Records",
+            "copyright": "(P) 2021 Olivia Belli, under exclusive license to XXIM Records, a label of Sony Music Entertainment.",
+            "copyrightDate": 2021,
+            "imageUrl": "https://music.libraryideas.com/171/030/117/000/457/091/43/A10301A00045709143_T-1024016259361_Image.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "T2xpdmlhIEJlbGxp",
+            "name": "Olivia Belli"
+          },
+          "songId": 34696838,
+          "albumId": 34301852,
+          "title": "As I Was",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Solo Instrumental",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 207,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/34301852/1"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "WW8tWW8gTWEgJiBLYXRocnluIFN0b3R0",
+              "name": "Yo-Yo Ma & Kathryn Stott"
+            },
+            "albumId": 34294864,
+            "title": "Songs of Comfort and Hope",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Classical Crossover",
+            "label": "Sony Classical",
+            "copyright": "(P) 2020 Sound Postings LLC, under exclusive license to Sony Music Entertainment",
+            "copyrightDate": 2020,
+            "imageUrl": "https://music.libraryideas.com/171/030/117/000/445/713/50/A10301A00044571350_T-1024015655093_Image.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "WW8tWW8gTWEgJiBLYXRocnluIFN0b3R0",
+            "name": "Yo-Yo Ma & Kathryn Stott"
+          },
+          "songId": 34663917,
+          "albumId": 34294864,
+          "title": "Song Without Words, Op. 109",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Classical Crossover",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 254,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/34294864/1"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "QW5uZWxpZQ",
+              "name": "Annelie"
+            },
+            "albumId": 34298764,
+            "title": "Hertz",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Classical",
+            "label": "Masterworks",
+            "copyright": "(P) 2021 Annelie Piano Recordings (APR) exclusively licensed to Sony Music Entertainment Netherlands B.V.",
+            "copyrightDate": 2021,
+            "imageUrl": "https://music.libraryideas.com/171/030/117/000/427/542/56/A10301A00042754256_T-1024016019267_Image.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "QW5uZWxpZQ",
+            "name": "Annelie"
+          },
+          "songId": 34682489,
+          "albumId": 34298764,
+          "title": "Tuesday",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Classical",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 191,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/34298764/1"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "TWFydGluIFN0YWR0ZmVsZA",
+              "name": "Martin Stadtfeld"
+            },
+            "albumId": 10128994,
+            "title": "Bach: Piano Concertos",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Classical",
+            "label": "Sony Classical",
+            "copyright": "(P) 2006 SONY BMG MUSIC ENTERTAINMENT (GERMANY) GmbH",
+            "copyrightDate": 2006,
+            "imageUrl": "https://music.libraryideas.com/171/030/117/000/095/471/624/A10301A0000954716H_T-1219027560532_Image.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "TWFydGluIFN0YWR0ZmVsZCAmIEZlc3RpdmFsIFN0cmluZ3MgTHVjZXJuZSAmIEFjaGltIEZpZWRsZXI",
+            "name": "Martin Stadtfeld & Festival Strings Lucerne & Achim Fiedler"
+          },
+          "songId": 10550272,
+          "albumId": 10128994,
+          "title": "Piano Concerto No. 2 in E Major, BWV 1053: II. Siciliano",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Classical",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 226,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/10128994/1"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "TGF2aW5pYSBNZWlqZXIgJiBXb3JsZCBDaG9pciBmb3IgUGVhY2U",
+              "name": "Lavinia Meijer & World Choir for Peace"
+            },
+            "albumId": 34287362,
+            "title": "Peaceful Choir - New Sound of Choral Music",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Classical",
+            "label": "Sony Classical/Sony Music",
+            "copyright": "(P) 2020 Sony Music Entertainment Germany GmbH",
+            "copyrightDate": 2020,
+            "imageUrl": "https://music.libraryideas.com/171/030/117/000/425/058/37/A10301A00042505837_T-1024014719336_Image.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "RXN0aGVyIEFicmFtaSAmIFdvcmxkIENob2lyIGZvciBQZWFjZSAmIE5pY29sIE1hdHQ",
+            "name": "Esther Abrami & World Choir for Peace & Nicol Matt"
+          },
+          "songId": 34617145,
+          "albumId": 34287362,
+          "title": "Serenity (O Magnum Mysterium)",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Classical",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 321,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/34287362/1"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "TGFuZyBMYW5n",
+              "name": "Lang Lang"
+            },
+            "albumId": 23251854,
+            "title": "Gran Turismo 5 (Original Game Soundtrack)",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Classical",
+            "label": "Sony Classical",
+            "copyright": "(P) 2010 Sony Computer Entertainment under exclusive license to Sony Classical International",
+            "copyrightDate": 2010,
+            "imageUrl": "https://music.libraryideas.com/000/000/000/000/232/518/54/00000000000023251854-250x250_72dpi_RGB_100Q.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "TGFuZyBMYW5n",
+            "name": "Lang Lang"
+          },
+          "songId": 23283218,
+          "albumId": 23251854,
+          "title": "Herz und Mund und Tat und Leben, BWV 147: Chorale. Jesus bleibet meine Freude (Arr. for Piano)",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Classical",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 268,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/23251854/1"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "SEFVU0VS",
+              "name": "HAUSER"
+            },
+            "albumId": 34264517,
+            "title": "Classic",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Classical",
+            "label": "Sony Classical",
+            "copyright": "(P) 2019 Sony Music Entertainment",
+            "copyrightDate": 2019,
+            "imageUrl": "https://music.libraryideas.com/171/030/117/000/413/470/02/A10301A00041347002_T-1024014168101_Image.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "SEFVU0VSICYgTG9uZG9uIFN5bXBob255IE9yY2hlc3RyYSAmIFJvYmVydCBaaWVnbGVy",
+            "name": "HAUSER & London Symphony Orchestra & Robert Ziegler"
+          },
+          "songId": 34476593,
+          "albumId": 34264517,
+          "title": "Air on a G String",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Classical",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 290,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/34264517/1"
+        }
+      ],
+      "limit": 10,
+      "next": "https://api.freegalmusic.com/v1/playlist/songs?playlistId=397967&provider=1&offset=10&limit=10&explicit=true",
+      "offset": 0,
+      "previous": "null",
+      "total": 35
+    }
+  }
+}

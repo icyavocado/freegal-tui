@@ -1,0 +1,139 @@
+// Probe: GET playlists/recommended?offset=0&limit=10&provider=1 — captured 6KiB 2026-11-03 via logged-in patron (demo) as live-API feasibility verification for the Home tab; shapes pinned for models.rs.
+{
+  "success": true,
+  "responseCode": 17,
+  "responseMessage": "List of recommended playlists.",
+  "href": "https://api.freegalmusic.com/v1/playlists/recommended?offset=0&limit=10&provider=1",
+  "data": {
+    "playlists": {
+      "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=playlists/recommended",
+      "items": [
+        {
+          "playlistId": 397967,
+          "name": "Study & Chill",
+          "description": "",
+          "songsCount": 35,
+          "created": "2025-09-16T15:49:32+00:00",
+          "href": "https://api.freegalmusic.com/v1/playlists/songs?playlistId=397967",
+          "imageUrl": "https://music.libraryideas.com/freegalmusic/prod/EN/playlist/study_and_chill_2_20250916030908.png",
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=playlist/397967",
+          "playlistType": 0
+        },
+        {
+          "playlistId": 398087,
+          "name": "Have a Great Day!",
+          "description": "",
+          "songsCount": 25,
+          "created": "2026-01-15T13:08:27+00:00",
+          "href": "https://api.freegalmusic.com/v1/playlists/songs?playlistId=398087",
+          "imageUrl": "https://music.libraryideas.com/freegalmusic/prod/EN/playlist/have_a_great_day_2_20260115010107.png",
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=playlist/398087",
+          "playlistType": 0
+        },
+        {
+          "playlistId": 397951,
+          "name": "It Came From 2005",
+          "description": "",
+          "songsCount": 30,
+          "created": "2025-09-03T15:36:28+00:00",
+          "href": "https://api.freegalmusic.com/v1/playlists/songs?playlistId=397951",
+          "imageUrl": "https://music.libraryideas.com/freegalmusic/prod/EN/playlist/it_came_from_2005_1_20250903030917.png",
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=playlist/397951",
+          "playlistType": 0
+        },
+        {
+          "playlistId": 398108,
+          "name": "Super Bowl LX Playlist",
+          "description": "",
+          "songsCount": 27,
+          "created": "2026-02-02T12:46:13+00:00",
+          "href": "https://api.freegalmusic.com/v1/playlists/songs?playlistId=398108",
+          "imageUrl": "https://music.libraryideas.com/freegalmusic/prod/EN/playlist/super_bowl_lx_playlist_1_20260202120236.png",
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=playlist/398108",
+          "playlistType": 0
+        },
+        {
+          "playlistId": 398111,
+          "name": "68th GRAMMY® Awards Winners",
+          "description": "",
+          "songsCount": 21,
+          "created": "2026-02-02T13:22:25+00:00",
+          "href": "https://api.freegalmusic.com/v1/playlists/songs?playlistId=398111",
+          "imageUrl": "https://music.libraryideas.com/freegalmusic/prod/EN/playlist/68th_grammy_awards_winners_1_20260202010224.png",
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=playlist/398111",
+          "playlistType": 0
+        },
+        {
+          "playlistId": 397733,
+          "name": "Forever Hits",
+          "description": "",
+          "songsCount": 38,
+          "created": "2025-02-25T15:47:37+00:00",
+          "href": "https://api.freegalmusic.com/v1/playlists/songs?playlistId=397733",
+          "imageUrl": "https://music.libraryideas.com/freegalmusic/prod/EN/playlist/forever_hits_1_20250225030252.png",
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=playlist/397733",
+          "playlistType": 0
+        },
+        {
+          "playlistId": 398089,
+          "name": "Confidence Boost",
+          "description": "",
+          "songsCount": 31,
+          "created": "2026-01-15T13:08:45+00:00",
+          "href": "https://api.freegalmusic.com/v1/playlists/songs?playlistId=398089",
+          "imageUrl": "https://music.libraryideas.com/freegalmusic/prod/EN/playlist/confidence_boost_1_20260115010114.png",
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=playlist/398089",
+          "playlistType": 0
+        },
+        {
+          "playlistId": 397802,
+          "name": "Motivation Rejuvenation",
+          "description": "",
+          "songsCount": 31,
+          "created": "2025-04-24T13:14:16+00:00",
+          "href": "https://api.freegalmusic.com/v1/playlists/songs?playlistId=397802",
+          "imageUrl": "https://music.libraryideas.com/freegalmusic/prod/EN/playlist/motivation_rejuvenation_2_20250424010440.png",
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=playlist/397802",
+          "playlistType": 0
+        },
+        {
+          "playlistId": 397681,
+          "name": "21st Century Love",
+          "description": "",
+          "songsCount": 32,
+          "created": "2025-01-06T15:11:03+00:00",
+          "href": "https://api.freegalmusic.com/v1/playlists/songs?playlistId=397681",
+          "imageUrl": "https://music.libraryideas.com/freegalmusic/prod/EN/playlist/21st-century-love-2.png",
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=playlist/397681",
+          "playlistType": 0
+        },
+        {
+          "playlistId": 321211,
+          "name": "Come On Get Happy",
+          "description": "",
+          "songsCount": 79,
+          "created": "2019-10-17T15:24:00+00:00",
+          "href": "https://api.freegalmusic.com/v1/playlists/songs?playlistId=321211",
+          "imageUrl": "https://music.libraryideas.com/freegalmusic/prod/EN/playlist/come-on-get-happy.png",
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=playlist/321211",
+          "playlistType": 0
+        }
+      ],
+      "limit": 10,
+      "next": "https://api.freegalmusic.com/v1/playlists/recommended?offset=10&limit=10&provider=1&explicit=true",
+      "offset": 0,
+      "previous": "null",
+      "total": 100
+    }
+  }
+}

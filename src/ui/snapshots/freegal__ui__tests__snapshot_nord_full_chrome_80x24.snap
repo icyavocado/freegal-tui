@@ -1,0 +1,28 @@
+---
+source: src/ui/tests.rs
+expression: backend
+---
+"♪ freegal  [● Home] │ My Music │ Queue │ History │ Downloads       not signed in"
+"┌──────────────────────────────────────────────────────────────────────────────┐"
+"   🔍 Search songs, artists, albums — press / to type                          │" Hidden by multi-width symbols: [(4, " ")]
+"└──────────────────────────────────────────────────────────────────────────────┘"
+"                                                                                "
+"[→ Artists]  [→ Trending]  [→ New]  [→ Albums]  [→ Playlists]  [→ Genres]       "
+"                                                                                "
+"┌ library playlists ───┐             press R to load the home feeds             "
+"│    loading…          │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"└──────────────────────┘                                                        "
+"[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit "
+"                                                                                "
+"                                                                                "

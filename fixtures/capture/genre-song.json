@@ -1,0 +1,348 @@
+// Probe: GET genre/song?genreName=Pop — captured 2026-11-04 via logged-in patron (demo) as live-API feasibility verification for the Home tab; note the param name is genreName (genre= is a 404).
+{
+  "success": true,
+  "responseCode": 17,
+  "responseMessage": "List of Pop songs.",
+  "href": "https://api.freegalmusic.com/v1/genre/song?genreName=Pop&offset=0&limit=10",
+  "data": {
+    "songs": {
+      "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Pop/songs&language=EN",
+      "items": [
+        {
+          "album": {
+            "artist": {
+              "artistId": "VGhlIENoYWluc21va2VycyAmIEJlYXUgTm94",
+              "name": "The Chainsmokers & Beau Nox"
+            },
+            "albumId": 9999900363866,
+            "title": "White Wine & Adderall",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Teen Pop",
+            "label": "Disruptor Records/Columbia",
+            "copyright": "(P) 2025 Secondhand Happiness, Inc., under exclusive license to Disruptor Records/Columbia Records, a Division of Sony Music Entertainment",
+            "copyrightDate": 2025,
+            "imageUrl": "https://music.libraryideas.com/171/030/117/000/558/570/05/A10301A00055857005_T-1219027155522_Image.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "VGhlIENoYWluc21va2VycyAmIEJlYXUgTm94",
+            "name": "The Chainsmokers & Beau Nox"
+          },
+          "songId": 376966854,
+          "albumId": 9999900363866,
+          "title": "White Wine & Adderall",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Teen Pop",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 178,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "streamURL": "",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/9999900363866/1&language=EN"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "WmFyYSBMYXJzc29u",
+              "name": "Zara Larsson"
+            },
+            "albumId": 9999900365992,
+            "title": "Crush",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Pop",
+            "label": "Sommer House/Epic",
+            "copyright": "(P) 2025 Sommer House, under exclusive license to Epic Records, a division of Sony Music Entertainment.",
+            "copyrightDate": 2025,
+            "imageUrl": "https://music.libraryideas.com/171/030/117/000/555/650/826/A10301A0005556508J_T-1219026969983_Image.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "WmFyYSBMYXJzc29u",
+            "name": "Zara Larsson"
+          },
+          "songId": 377078555,
+          "albumId": 9999900365992,
+          "title": "Crush",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Pop",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 177,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "streamURL": "",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/9999900365992/1&language=EN"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "RG92ZSBDYW1lcm9u",
+              "name": "Dove Cameron"
+            },
+            "albumId": 9999900418941,
+            "title": "breaks open",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Pop",
+            "label": "Disruptor Records/Columbia",
+            "copyright": "(P) 2026 Disruptor Records/Columbia Records",
+            "copyrightDate": 2026,
+            "imageUrl": "https://music.libraryideas.com/171/030/117/000/607/629/20/A10301A00060762920_T-1219029665909_Image.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "RG92ZSBDYW1lcm9u",
+            "name": "Dove Cameron"
+          },
+          "songId": 378870004,
+          "albumId": 9999900418941,
+          "title": "breaks open",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Pop",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 229,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "streamURL": "",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/9999900418941/1&language=EN"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "UXXDom4gQS5Q",
+              "name": "Quân A.P"
+            },
+            "albumId": 9999900418853,
+            "title": "Hóa Điên",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Pop",
+            "label": "Great Entertainment/Sony Music",
+            "copyright": "(P) 2026 Sony Music Entertainment Hong Kong Ltd., under exclusive license from Great Entertainment",
+            "copyrightDate": 2026,
+            "imageUrl": "https://music.libraryideas.com/171/030/117/000/608/548/642/A10301A0006085486Z_T-1219029733366_Image.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "UXXDom4gQS5Q",
+            "name": "Quân A.P"
+          },
+          "songId": 378868432,
+          "albumId": 9999900418853,
+          "title": "Bất An",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Pop",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 302,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "streamURL": "",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/9999900418853/1&language=EN"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "UXXDom4gQS5Q",
+              "name": "Quân A.P"
+            },
+            "albumId": 9999900418853,
+            "title": "Hóa Điên",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Pop",
+            "label": "Great Entertainment/Sony Music",
+            "copyright": "(P) 2026 Sony Music Entertainment Hong Kong Ltd., under exclusive license from Great Entertainment",
+            "copyrightDate": 2026,
+            "imageUrl": "https://music.libraryideas.com/171/030/117/000/608/548/642/A10301A0006085486Z_T-1219029733366_Image.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "UXXDom4gQS5Q",
+            "name": "Quân A.P"
+          },
+          "songId": 378868433,
+          "albumId": 9999900418853,
+          "title": "Hóa Điên",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Pop",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 258,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "streamURL": "",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/9999900418853/1&language=EN"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "UXXDom4gQS5Q",
+              "name": "Quân A.P"
+            },
+            "albumId": 9999900418853,
+            "title": "Hóa Điên",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Pop",
+            "label": "Great Entertainment/Sony Music",
+            "copyright": "(P) 2026 Sony Music Entertainment Hong Kong Ltd., under exclusive license from Great Entertainment",
+            "copyrightDate": 2026,
+            "imageUrl": "https://music.libraryideas.com/171/030/117/000/608/548/642/A10301A0006085486Z_T-1219029733366_Image.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "UXXDom4gQS5Q",
+            "name": "Quân A.P"
+          },
+          "songId": 378868430,
+          "albumId": 9999900418853,
+          "title": "3 Phải 6 Đừng",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Pop",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 240,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "streamURL": "",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/9999900418853/1&language=EN"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "UXXDom4gQS5Q",
+              "name": "Quân A.P"
+            },
+            "albumId": 9999900418853,
+            "title": "Hóa Điên",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Pop",
+            "label": "Great Entertainment/Sony Music",
+            "copyright": "(P) 2026 Sony Music Entertainment Hong Kong Ltd., under exclusive license from Great Entertainment",
+            "copyrightDate": 2026,
+            "imageUrl": "https://music.libraryideas.com/171/030/117/000/608/548/642/A10301A0006085486Z_T-1219029733366_Image.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "UXXDom4gQS5Q",
+            "name": "Quân A.P"
+          },
+          "songId": 378868431,
+          "albumId": 9999900418853,
+          "title": "Giọt Nước Mặt Hồ",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Pop",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 261,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "streamURL": "",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/9999900418853/1&language=EN"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "TW9oYW4gU2l0aGFyYSAmIEIuSy4gSGFyaW5hcmF5YW5hbg",
+              "name": "Mohan Sithara & B.K. Harinarayanan"
+            },
+            "albumId": 9999900418768,
+            "title": "Chol Chol Kilimakale",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Indian Pop",
+            "label": "Sony Music Entertainment India Pvt. Ltd.",
+            "copyright": "(P) 2026 Sony Music Entertainment India Pvt. Ltd.",
+            "copyrightDate": 2026,
+            "imageUrl": "https://music.libraryideas.com/171/030/117/000/608/873/041/A10301A0006088730Y_T-1219029756140_Image.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "TW9oYW4gU2l0aGFyYSAmIEIuSy4gSGFyaW5hcmF5YW5hbg",
+            "name": "Mohan Sithara & B.K. Harinarayanan"
+          },
+          "songId": 378865240,
+          "albumId": 9999900418768,
+          "title": "Chol Chol Kilimakale",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Indian Pop",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 321,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "streamURL": "",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/9999900418768/1&language=EN"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "UCFOSyAmIE5hdGUgUnVlc3M",
+              "name": "P!NK & Nate Ruess"
+            },
+            "albumId": 9999900418762,
+            "title": "Give Me A Reason + Try",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Pop",
+            "label": "RCA Records Label",
+            "copyright": "(P) 2012 RCA Records, a division of Sony Music Entertainment",
+            "copyrightDate": 2026,
+            "imageUrl": "https://music.libraryideas.com/171/030/117/000/608/907/122/A10301A0006089071F_T-1219012566819_Image.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "UCFOSyAmIE5hdGUgUnVlc3M",
+            "name": "P!NK & Nate Ruess"
+          },
+          "songId": 378864531,
+          "albumId": 9999900418762,
+          "title": "Just Give Me a Reason",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Pop",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 242,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "streamURL": "",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/9999900418762/1&language=EN"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "UCFOSw",
+              "name": "P!NK"
+            },
+            "albumId": 9999900418762,
+            "title": "Give Me A Reason + Try",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Pop",
+            "label": "RCA Records Label",
+            "copyright": "(P) 2012 RCA Records, a division of Sony Music Entertainment",
+            "copyrightDate": 2026,
+            "imageUrl": "https://music.libraryideas.com/171/030/117/000/608/907/122/A10301A0006089071F_T-1219012566819_Image.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "UCFOSw",
+            "name": "P!NK"
+          },
+          "songId": 378864532,
+          "albumId": 9999900418762,
+          "title": "Try",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Pop",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 247,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "streamURL": "",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/9999900418762/1&language=EN"
+        }
+      ],
+      "limit": 10,
+      "next": "https://api.freegalmusic.com/v1/genre/song?genreName=Pop&offset=10&limit=10&flag=2",
+      "offset": 0,
+      "previous": ""
+    }
+  }
+}

@@ -1,0 +1,28 @@
+---
+source: src/ui/tests.rs
+expression: backend
+---
+"♪ freegal  [● Home] │ My Music │ Queue │ History │ Downloads       not signed in"
+"╭ library playlists ───╮  Home                                                  "
+"│  Study & Chill (35)  │     → Subgenres                                        "
+"│                      │ ●   Synth-pop                                          "
+"│                      │ ●   Acoustic Pop                                       "
+"│                      │     → Songs                                            "
+"│                      │ 1   Blinding Lights           The Weeknd        3:20   "
+"│                      │     → Playlists                                        "
+"│                      │ 2   Heart Beats                                 0 song "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"╰──────────────────────╯                                     7 items · Esc: back"
+"[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit "
+"                                                                                "
+"                                                                                "

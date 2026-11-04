@@ -1,0 +1,2995 @@
+// Probe: GET genres/recommended — captured 2026-11-04 via logged-in patron (demo) as live-API feasibility verification for the Home tab; genres is a tall Page-style container (items are the ~500-card genre index).
+{
+  "success": true,
+  "responseCode": 235,
+  "responseMessage": "List of all genres available.",
+  "href": "https://api.freegalmusic.com/v1/genres/recommended",
+  "data": {
+    "genres": {
+      "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genres",
+      "items": [
+        {
+          "genreId": "Pop",
+          "title": "Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_5.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Pop"
+        },
+        {
+          "genreId": "Rock",
+          "title": "Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_18.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Rock"
+        },
+        {
+          "genreId": "Classical",
+          "title": "Classical",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_21.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Classical"
+        },
+        {
+          "genreId": "Soundtracks",
+          "title": "Soundtracks",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_15.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Soundtracks"
+        },
+        {
+          "genreId": "Country",
+          "title": "Country",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_11.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Country"
+        },
+        {
+          "genreId": "Electronic",
+          "title": "Electronic",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_27.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Electronic"
+        },
+        {
+          "genreId": "World Music",
+          "title": "World Music",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_12.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/World Music"
+        },
+        {
+          "genreId": "Jazz",
+          "title": "Jazz",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_22.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Jazz"
+        },
+        {
+          "genreId": "R&B",
+          "title": "R&B",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_20.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/R&B"
+        },
+        {
+          "genreId": "Folk",
+          "title": "Folk",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_10.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Folk"
+        },
+        {
+          "genreId": "Alternative",
+          "title": "Alternative",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_10.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Alternative"
+        },
+        {
+          "genreId": "Latin Music",
+          "title": "Latin Music",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_10.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Latin Music"
+        },
+        {
+          "genreId": "Christian",
+          "title": "Christian",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_9.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Christian"
+        },
+        {
+          "genreId": "Metal",
+          "title": "Metal",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_7.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Metal"
+        },
+        {
+          "genreId": "New Age",
+          "title": "New Age",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_10.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/New Age"
+        },
+        {
+          "genreId": "Dance",
+          "title": "Dance",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_14.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Dance"
+        },
+        {
+          "genreId": "Blues",
+          "title": "Blues",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_15.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Blues"
+        },
+        {
+          "genreId": "Children's",
+          "title": "Children's",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_8.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Children's"
+        },
+        {
+          "genreId": "R&B/Soul",
+          "title": "R&B/Soul",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_21.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/R&B/Soul"
+        },
+        {
+          "genreId": "Pop/Rock International",
+          "title": "Pop/Rock International",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_5.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Pop/Rock International"
+        },
+        {
+          "genreId": "Classic Rock",
+          "title": "Classic Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Classic Rock"
+        },
+        {
+          "genreId": "Singer-Songwriter",
+          "title": "Singer-Songwriter",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_4.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Singer-Songwriter"
+        },
+        {
+          "genreId": "Gospel/Christian",
+          "title": "Gospel/Christian",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_3.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Gospel/Christian"
+        },
+        {
+          "genreId": "Hip-hop/Rap",
+          "title": "Hip-hop/Rap",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_2.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Hip-hop/Rap"
+        },
+        {
+          "genreId": "K-Pop",
+          "title": "K-Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_20.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/K-Pop"
+        },
+        {
+          "genreId": "Reggae",
+          "title": "Reggae",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_5.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Reggae"
+        },
+        {
+          "genreId": "Soft Rock",
+          "title": "Soft Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_13.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Soft Rock"
+        },
+        {
+          "genreId": "Alternative/Indie",
+          "title": "Alternative/Indie",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_11.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Alternative/Indie"
+        },
+        {
+          "genreId": "Metal/Hard Rock",
+          "title": "Metal/Hard Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_26.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Metal/Hard Rock"
+        },
+        {
+          "genreId": "Dance Pop",
+          "title": "Dance Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_20.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Dance Pop"
+        },
+        {
+          "genreId": "Soul",
+          "title": "Soul",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_14.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Soul"
+        },
+        {
+          "genreId": "Hip Hop",
+          "title": "Hip Hop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_13.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Hip Hop"
+        },
+        {
+          "genreId": "Rap",
+          "title": "Rap",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_22.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Rap"
+        },
+        {
+          "genreId": "Oldies",
+          "title": "Oldies",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_5.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Oldies"
+        },
+        {
+          "genreId": "Adult Contemporary",
+          "title": "Adult Contemporary",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_17.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Adult Contemporary"
+        },
+        {
+          "genreId": "Classic Rock/Oldies",
+          "title": "Classic Rock/Oldies",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_17.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Classic Rock/Oldies"
+        },
+        {
+          "genreId": "Classical Crossover",
+          "title": "Classical Crossover",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_6.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Classical Crossover"
+        },
+        {
+          "genreId": "Easy Listening",
+          "title": "Easy Listening",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_9.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Easy Listening"
+        },
+        {
+          "genreId": "Punk",
+          "title": "Punk",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_10.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Punk"
+        },
+        {
+          "genreId": "Folk/Country",
+          "title": "Folk/Country",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Folk/Country"
+        },
+        {
+          "genreId": "Latin Pop",
+          "title": "Latin Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_13.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Latin Pop"
+        },
+        {
+          "genreId": "Latin",
+          "title": "Latin",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_22.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Latin"
+        },
+        {
+          "genreId": "Holiday",
+          "title": "Holiday",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_27.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Holiday"
+        },
+        {
+          "genreId": "Soundtracks/Musicals",
+          "title": "Soundtracks/Musicals",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_29.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Soundtracks/Musicals"
+        },
+        {
+          "genreId": "Pop/Rock",
+          "title": "Pop/Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_23.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Pop/Rock"
+        },
+        {
+          "genreId": "Alternative Rock",
+          "title": "Alternative Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_2.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Alternative Rock"
+        },
+        {
+          "genreId": "Psychedelic Rock",
+          "title": "Psychedelic Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_22.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Psychedelic Rock"
+        },
+        {
+          "genreId": "New Age/Instrumental",
+          "title": "New Age/Instrumental",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_8.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/New Age/Instrumental"
+        },
+        {
+          "genreId": "Anime",
+          "title": "Anime",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_20.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Anime"
+        },
+        {
+          "genreId": "Religious",
+          "title": "Religious",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_25.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Religious"
+        },
+        {
+          "genreId": "Jazz/Blues",
+          "title": "Jazz/Blues",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_16.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Jazz/Blues"
+        },
+        {
+          "genreId": "Indie",
+          "title": "Indie",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_17.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Indie"
+        },
+        {
+          "genreId": "World",
+          "title": "World",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_27.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/World"
+        },
+        {
+          "genreId": "Variété française",
+          "title": "Variété française",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_29.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Variété française"
+        },
+        {
+          "genreId": "Alternative Pop",
+          "title": "Alternative Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_8.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Alternative Pop"
+        },
+        {
+          "genreId": "Tropical",
+          "title": "Tropical",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_4.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Tropical"
+        },
+        {
+          "genreId": "Album-Oriented Rock (AOR)",
+          "title": "Album-Oriented Rock (AOR)",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_29.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Album-Oriented Rock (AOR)"
+        },
+        {
+          "genreId": "Adult Standards",
+          "title": "Adult Standards",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_18.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Adult Standards"
+        },
+        {
+          "genreId": "Electronica",
+          "title": "Electronica",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_27.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Electronica"
+        },
+        {
+          "genreId": "Spoken Word",
+          "title": "Spoken Word",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_11.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Spoken Word"
+        },
+        {
+          "genreId": "Gospel",
+          "title": "Gospel",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_3.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Gospel"
+        },
+        {
+          "genreId": "Dance/House",
+          "title": "Dance/House",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_29.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Dance/House"
+        },
+        {
+          "genreId": "Instrumental",
+          "title": "Instrumental",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_7.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Instrumental"
+        },
+        {
+          "genreId": "Classical: Piano",
+          "title": "Classical: Piano",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_4.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Classical: Piano"
+        },
+        {
+          "genreId": "Vocals",
+          "title": "Vocals",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Vocals"
+        },
+        {
+          "genreId": "House",
+          "title": "House",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_22.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/House"
+        },
+        {
+          "genreId": "Children's Music",
+          "title": "Children's Music",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_12.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Children's Music"
+        },
+        {
+          "genreId": "Indie Rock",
+          "title": "Indie Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_29.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Indie Rock"
+        },
+        {
+          "genreId": "Soundtrack",
+          "title": "Soundtrack",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_29.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Soundtrack"
+        },
+        {
+          "genreId": "Psychedelic",
+          "title": "Psychedelic",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_14.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Psychedelic"
+        },
+        {
+          "genreId": "Canto Pop",
+          "title": "Canto Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_18.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Canto Pop"
+        },
+        {
+          "genreId": "Ska",
+          "title": "Ska",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_20.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Ska"
+        },
+        {
+          "genreId": "Hard Rock",
+          "title": "Hard Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_6.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Hard Rock"
+        },
+        {
+          "genreId": "Neo-classical",
+          "title": "Neo-classical",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_25.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Neo-classical"
+        },
+        {
+          "genreId": "Urban Blues",
+          "title": "Urban Blues",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_22.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Urban Blues"
+        },
+        {
+          "genreId": "Hard Rock / Metal",
+          "title": "Hard Rock / Metal",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_15.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Hard Rock / Metal"
+        },
+        {
+          "genreId": "Solo Instrumental",
+          "title": "Solo Instrumental",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_23.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Solo Instrumental"
+        },
+        {
+          "genreId": "Teen Pop",
+          "title": "Teen Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_3.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Teen Pop"
+        },
+        {
+          "genreId": "Christmas",
+          "title": "Christmas",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_2.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Christmas"
+        },
+        {
+          "genreId": "Classical: Cello",
+          "title": "Classical: Cello",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_5.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Classical: Cello"
+        },
+        {
+          "genreId": "Schlager/Volksmusik",
+          "title": "Schlager/Volksmusik",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_2.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Schlager/Volksmusik"
+        },
+        {
+          "genreId": "Techno",
+          "title": "Techno",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_28.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Techno"
+        },
+        {
+          "genreId": "J-Pop",
+          "title": "J-Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_16.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/J-Pop"
+        },
+        {
+          "genreId": "Roots Rock",
+          "title": "Roots Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_30.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Roots Rock"
+        },
+        {
+          "genreId": "Traditional Pop Vocal",
+          "title": "Traditional Pop Vocal",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_15.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Traditional Pop Vocal"
+        },
+        {
+          "genreId": "Pop/Rock Italiano",
+          "title": "Pop/Rock Italiano",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_27.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Pop/Rock Italiano"
+        },
+        {
+          "genreId": "Relaxation",
+          "title": "Relaxation",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_2.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Relaxation"
+        },
+        {
+          "genreId": "Pop / Rock",
+          "title": "Pop / Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_6.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Pop / Rock"
+        },
+        {
+          "genreId": "Folk/Blues",
+          "title": "Folk/Blues",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_1.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Folk/Blues"
+        },
+        {
+          "genreId": "Tropical House",
+          "title": "Tropical House",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_9.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Tropical House"
+        },
+        {
+          "genreId": "Classic Country",
+          "title": "Classic Country",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_25.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Classic Country"
+        },
+        {
+          "genreId": "Romanticism",
+          "title": "Romanticism",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_6.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Romanticism"
+        },
+        {
+          "genreId": "Grunge",
+          "title": "Grunge",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_25.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Grunge"
+        },
+        {
+          "genreId": "Ghazals, Sufi & Qawwali",
+          "title": "Ghazals, Sufi & Qawwali",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_2.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Ghazals, Sufi & Qawwali"
+        },
+        {
+          "genreId": "Broadway",
+          "title": "Broadway",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Broadway"
+        },
+        {
+          "genreId": "Easy Listening/Vocals",
+          "title": "Easy Listening/Vocals",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_8.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Easy Listening/Vocals"
+        },
+        {
+          "genreId": "Rock & Roll",
+          "title": "Rock & Roll",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_6.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Rock & Roll"
+        },
+        {
+          "genreId": "Dance/House/Techno",
+          "title": "Dance/House/Techno",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_12.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Dance/House/Techno"
+        },
+        {
+          "genreId": "Hip Hop/Instrumentals",
+          "title": "Hip Hop/Instrumentals",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_20.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Hip Hop/Instrumentals"
+        },
+        {
+          "genreId": "Chinese Pop/Rock",
+          "title": "Chinese Pop/Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Chinese Pop/Rock"
+        },
+        {
+          "genreId": "Americana",
+          "title": "Americana",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_8.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Americana"
+        },
+        {
+          "genreId": "Christmas: Pop",
+          "title": "Christmas: Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_30.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Christmas: Pop"
+        },
+        {
+          "genreId": "Regional Mexican",
+          "title": "Regional Mexican",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_23.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Regional Mexican"
+        },
+        {
+          "genreId": "Disco",
+          "title": "Disco",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_29.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Disco"
+        },
+        {
+          "genreId": "Trap",
+          "title": "Trap",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_3.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Trap"
+        },
+        {
+          "genreId": "Progressive Rock",
+          "title": "Progressive Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_23.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Progressive Rock"
+        },
+        {
+          "genreId": "Latin Urban",
+          "title": "Latin Urban",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_29.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Latin Urban"
+        },
+        {
+          "genreId": "Electropop",
+          "title": "Electropop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_25.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Electropop"
+        },
+        {
+          "genreId": "Deep Soul",
+          "title": "Deep Soul",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Deep Soul"
+        },
+        {
+          "genreId": "Adult Alternative",
+          "title": "Adult Alternative",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_2.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Adult Alternative"
+        },
+        {
+          "genreId": "Traditional Country",
+          "title": "Traditional Country",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_1.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Traditional Country"
+        },
+        {
+          "genreId": "Mandopop",
+          "title": "Mandopop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_11.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Mandopop"
+        },
+        {
+          "genreId": "Traditional Pop",
+          "title": "Traditional Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_27.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Traditional Pop"
+        },
+        {
+          "genreId": "Indie Pop",
+          "title": "Indie Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_29.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Indie Pop"
+        },
+        {
+          "genreId": "Vocal",
+          "title": "Vocal",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_19.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Vocal"
+        },
+        {
+          "genreId": "Funk",
+          "title": "Funk",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_17.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Funk"
+        },
+        {
+          "genreId": "Alternative/Experimental",
+          "title": "Alternative/Experimental",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Alternative/Experimental"
+        },
+        {
+          "genreId": "Blues Rock",
+          "title": "Blues Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_28.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Blues Rock"
+        },
+        {
+          "genreId": "EDM",
+          "title": "EDM",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_19.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/EDM"
+        },
+        {
+          "genreId": "Rap/Hip-Hop",
+          "title": "Rap/Hip-Hop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_22.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Rap/Hip-Hop"
+        },
+        {
+          "genreId": "Soundtrack (Bollywood)",
+          "title": "Soundtrack (Bollywood)",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_27.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Soundtrack (Bollywood)"
+        },
+        {
+          "genreId": "Jazz Fusion",
+          "title": "Jazz Fusion",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_1.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Jazz Fusion"
+        },
+        {
+          "genreId": "Southern Rock",
+          "title": "Southern Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_17.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Southern Rock"
+        },
+        {
+          "genreId": "Traditional Jazz",
+          "title": "Traditional Jazz",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_11.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Traditional Jazz"
+        },
+        {
+          "genreId": "Traditional Folk",
+          "title": "Traditional Folk",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_10.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Traditional Folk"
+        },
+        {
+          "genreId": "Miscellaneous/Other",
+          "title": "Miscellaneous/Other",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_13.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Miscellaneous/Other"
+        },
+        {
+          "genreId": "Cuban Music",
+          "title": "Cuban Music",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_20.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Cuban Music"
+        },
+        {
+          "genreId": "Avantgarde/Experimental",
+          "title": "Avantgarde/Experimental",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_3.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Avantgarde/Experimental"
+        },
+        {
+          "genreId": "Celtic",
+          "title": "Celtic",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_1.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Celtic"
+        },
+        {
+          "genreId": "Reggaeton",
+          "title": "Reggaeton",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_20.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Reggaeton"
+        },
+        {
+          "genreId": "Comedy/Kabarett",
+          "title": "Comedy/Kabarett",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_4.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Comedy/Kabarett"
+        },
+        {
+          "genreId": "Techno/Electronica",
+          "title": "Techno/Electronica",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_21.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Techno/Electronica"
+        },
+        {
+          "genreId": "Country Rock",
+          "title": "Country Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_20.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Country Rock"
+        },
+        {
+          "genreId": "Dubstep",
+          "title": "Dubstep",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_17.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Dubstep"
+        },
+        {
+          "genreId": "Childrens",
+          "title": "Childrens",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_2.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Childrens"
+        },
+        {
+          "genreId": "Canzone Italiana",
+          "title": "Canzone Italiana",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_23.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Canzone Italiana"
+        },
+        {
+          "genreId": "Alternative Metal",
+          "title": "Alternative Metal",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_12.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Alternative Metal"
+        },
+        {
+          "genreId": "Hip-Hop",
+          "title": "Hip-Hop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_4.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Hip-Hop"
+        },
+        {
+          "genreId": "OPM Pop",
+          "title": "OPM Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_9.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/OPM Pop"
+        },
+        {
+          "genreId": "Latin Traditional",
+          "title": "Latin Traditional",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_27.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Latin Traditional"
+        },
+        {
+          "genreId": "Gangsta",
+          "title": "Gangsta",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_7.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Gangsta"
+        },
+        {
+          "genreId": "South and Central American",
+          "title": "South and Central American",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_23.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/South and Central American"
+        },
+        {
+          "genreId": "SynthPop",
+          "title": "SynthPop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_9.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/SynthPop"
+        },
+        {
+          "genreId": "Christmas: Classical",
+          "title": "Christmas: Classical",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_13.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Christmas: Classical"
+        },
+        {
+          "genreId": "Rock/Pop internationale",
+          "title": "Rock/Pop internationale",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_23.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Rock/Pop internationale"
+        },
+        {
+          "genreId": "Latin Rock",
+          "title": "Latin Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_30.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Latin Rock"
+        },
+        {
+          "genreId": "Smooth Jazz",
+          "title": "Smooth Jazz",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_8.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Smooth Jazz"
+        },
+        {
+          "genreId": "Chamber Music",
+          "title": "Chamber Music",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_8.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Chamber Music"
+        },
+        {
+          "genreId": "Weihnachten/Christmas",
+          "title": "Weihnachten/Christmas",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_5.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Weihnachten/Christmas"
+        },
+        {
+          "genreId": "Bluegrass",
+          "title": "Bluegrass",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_23.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Bluegrass"
+        },
+        {
+          "genreId": "Liedermacher/Chansons",
+          "title": "Liedermacher/Chansons",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_13.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Liedermacher/Chansons"
+        },
+        {
+          "genreId": "World Music/Ethno",
+          "title": "World Music/Ethno",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_25.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/World Music/Ethno"
+        },
+        {
+          "genreId": "Salsa",
+          "title": "Salsa",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_20.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Salsa"
+        },
+        {
+          "genreId": "Indietronica",
+          "title": "Indietronica",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_26.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Indietronica"
+        },
+        {
+          "genreId": "Metal/Rock",
+          "title": "Metal/Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_11.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Metal/Rock"
+        },
+        {
+          "genreId": "Musica Mexicana",
+          "title": "Musica Mexicana",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_27.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Musica Mexicana"
+        },
+        {
+          "genreId": "Television Soundtrack",
+          "title": "Television Soundtrack",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_19.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Television Soundtrack"
+        },
+        {
+          "genreId": "Alternative R&B",
+          "title": "Alternative R&B",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_29.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Alternative R&B"
+        },
+        {
+          "genreId": "Heavy Metal",
+          "title": "Heavy Metal",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_16.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Heavy Metal"
+        },
+        {
+          "genreId": "Roots Reggae",
+          "title": "Roots Reggae",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_22.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Roots Reggae"
+        },
+        {
+          "genreId": "Classic Soul",
+          "title": "Classic Soul",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_2.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Classic Soul"
+        },
+        {
+          "genreId": "Chill",
+          "title": "Chill",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_4.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Chill"
+        },
+        {
+          "genreId": "Opera",
+          "title": "Opera",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_9.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Opera"
+        },
+        {
+          "genreId": "Symphonic Rock",
+          "title": "Symphonic Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_22.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Symphonic Rock"
+        },
+        {
+          "genreId": "Conscious Hip Hop",
+          "title": "Conscious Hip Hop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_20.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Conscious Hip Hop"
+        },
+        {
+          "genreId": "Salsa/Merengue",
+          "title": "Salsa/Merengue",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_4.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Salsa/Merengue"
+        },
+        {
+          "genreId": "Flamenco",
+          "title": "Flamenco",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_19.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Flamenco"
+        },
+        {
+          "genreId": "Balada",
+          "title": "Balada",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_19.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Balada"
+        },
+        {
+          "genreId": "Ambient",
+          "title": "Ambient",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_9.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Ambient"
+        },
+        {
+          "genreId": "Downtempo",
+          "title": "Downtempo",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_17.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Downtempo"
+        },
+        {
+          "genreId": "Native American",
+          "title": "Native American",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_12.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Native American"
+        },
+        {
+          "genreId": "Pop En Español",
+          "title": "Pop En Español",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_10.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Pop En Español"
+        },
+        {
+          "genreId": "Inspirational",
+          "title": "Inspirational",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_12.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Inspirational"
+        },
+        {
+          "genreId": "Progressive House",
+          "title": "Progressive House",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_9.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Progressive House"
+        },
+        {
+          "genreId": "Cool Jazz",
+          "title": "Cool Jazz",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_28.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Cool Jazz"
+        },
+        {
+          "genreId": "Brill Building Pop",
+          "title": "Brill Building Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_19.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Brill Building Pop"
+        },
+        {
+          "genreId": "Caribbean",
+          "title": "Caribbean",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_7.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Caribbean"
+        },
+        {
+          "genreId": "Comedy",
+          "title": "Comedy",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_20.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Comedy"
+        },
+        {
+          "genreId": "Alternative Rap",
+          "title": "Alternative Rap",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_28.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Alternative Rap"
+        },
+        {
+          "genreId": "Classical - Hindustani",
+          "title": "Classical - Hindustani",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_27.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Classical - Hindustani"
+        },
+        {
+          "genreId": "MPB",
+          "title": "MPB",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_8.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/MPB"
+        },
+        {
+          "genreId": "UK Garage",
+          "title": "UK Garage",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_30.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/UK Garage"
+        },
+        {
+          "genreId": "Deutschrock/pop",
+          "title": "Deutschrock/pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_19.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Deutschrock/pop"
+        },
+        {
+          "genreId": "Cumbia Norteña",
+          "title": "Cumbia Norteña",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_8.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Cumbia Norteña"
+        },
+        {
+          "genreId": "Natale",
+          "title": "Natale",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_29.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Natale"
+        },
+        {
+          "genreId": "Country/Folk",
+          "title": "Country/Folk",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_8.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Country/Folk"
+        },
+        {
+          "genreId": "Retro Soul",
+          "title": "Retro Soul",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_4.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Retro Soul"
+        },
+        {
+          "genreId": "Latin Alternative",
+          "title": "Latin Alternative",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_1.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Latin Alternative"
+        },
+        {
+          "genreId": "Soundtrack (Tamil)",
+          "title": "Soundtrack (Tamil)",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_29.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Soundtrack (Tamil)"
+        },
+        {
+          "genreId": "Classical: Vocal",
+          "title": "Classical: Vocal",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_25.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Classical: Vocal"
+        },
+        {
+          "genreId": "Quiet Storm",
+          "title": "Quiet Storm",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Quiet Storm"
+        },
+        {
+          "genreId": "Southern Hip Hop",
+          "title": "Southern Hip Hop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_7.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Southern Hip Hop"
+        },
+        {
+          "genreId": "Swing",
+          "title": "Swing",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_20.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Swing"
+        },
+        {
+          "genreId": "Cumbia",
+          "title": "Cumbia",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_14.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Cumbia"
+        },
+        {
+          "genreId": "Lounge/New Age",
+          "title": "Lounge/New Age",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_21.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Lounge/New Age"
+        },
+        {
+          "genreId": "Schlager",
+          "title": "Schlager",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_5.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Schlager"
+        },
+        {
+          "genreId": "Riot Grrrl",
+          "title": "Riot Grrrl",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_9.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Riot Grrrl"
+        },
+        {
+          "genreId": "Dancehall",
+          "title": "Dancehall",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_27.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Dancehall"
+        },
+        {
+          "genreId": "Jazz+Funk",
+          "title": "Jazz+Funk",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_17.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Jazz+Funk"
+        },
+        {
+          "genreId": "New Wave",
+          "title": "New Wave",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_28.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/New Wave"
+        },
+        {
+          "genreId": "Jazz Funk",
+          "title": "Jazz Funk",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_23.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Jazz Funk"
+        },
+        {
+          "genreId": "Punk Rock",
+          "title": "Punk Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_8.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Punk Rock"
+        },
+        {
+          "genreId": "Meditation",
+          "title": "Meditation",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Meditation"
+        },
+        {
+          "genreId": "Electric Blues Guitar",
+          "title": "Electric Blues Guitar",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_19.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Electric Blues Guitar"
+        },
+        {
+          "genreId": "Speech",
+          "title": "Speech",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_25.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Speech"
+        },
+        {
+          "genreId": "Hi-NRG",
+          "title": "Hi-NRG",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_21.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Hi-NRG"
+        },
+        {
+          "genreId": "Boleros/Baladas",
+          "title": "Boleros/Baladas",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_11.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Boleros/Baladas"
+        },
+        {
+          "genreId": "Post-Bop",
+          "title": "Post-Bop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_15.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Post-Bop"
+        },
+        {
+          "genreId": "Tech House",
+          "title": "Tech House",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_30.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Tech House"
+        },
+        {
+          "genreId": "Instrumental / Orchestral",
+          "title": "Instrumental / Orchestral",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_14.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Instrumental / Orchestral"
+        },
+        {
+          "genreId": "Roots/Americana",
+          "title": "Roots/Americana",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_14.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Roots/Americana"
+        },
+        {
+          "genreId": "Afrobeats",
+          "title": "Afrobeats",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_23.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Afrobeats"
+        },
+        {
+          "genreId": "Books/Spoken",
+          "title": "Books/Spoken",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_3.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Books/Spoken"
+        },
+        {
+          "genreId": "Kindermusik",
+          "title": "Kindermusik",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_30.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Kindermusik"
+        },
+        {
+          "genreId": "Classical: Solo",
+          "title": "Classical: Solo",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_6.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Classical: Solo"
+        },
+        {
+          "genreId": "Contemporary Blues",
+          "title": "Contemporary Blues",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_23.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Contemporary Blues"
+        },
+        {
+          "genreId": "Christmas: Classic",
+          "title": "Christmas: Classic",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_9.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Christmas: Classic"
+        },
+        {
+          "genreId": "Baroque",
+          "title": "Baroque",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_1.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Baroque"
+        },
+        {
+          "genreId": "Avant Garde Jazz",
+          "title": "Avant Garde Jazz",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_14.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Avant Garde Jazz"
+        },
+        {
+          "genreId": "Quebecois/Francophone",
+          "title": "Quebecois/Francophone",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_20.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Quebecois/Francophone"
+        },
+        {
+          "genreId": "Pop/Rock Swedish",
+          "title": "Pop/Rock Swedish",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_27.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Pop/Rock Swedish"
+        },
+        {
+          "genreId": "Instrumental Pop",
+          "title": "Instrumental Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_19.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Instrumental Pop"
+        },
+        {
+          "genreId": "Pop/Rock Swiss",
+          "title": "Pop/Rock Swiss",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_2.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Pop/Rock Swiss"
+        },
+        {
+          "genreId": "BeBop",
+          "title": "BeBop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/BeBop"
+        },
+        {
+          "genreId": "Deep House",
+          "title": "Deep House",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_3.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Deep House"
+        },
+        {
+          "genreId": "Shoegaze",
+          "title": "Shoegaze",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Shoegaze"
+        },
+        {
+          "genreId": "West Coast Rap",
+          "title": "West Coast Rap",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_19.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/West Coast Rap"
+        },
+        {
+          "genreId": "Bedroom Pop",
+          "title": "Bedroom Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_21.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Bedroom Pop"
+        },
+        {
+          "genreId": "Other",
+          "title": "Other",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_1.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Other"
+        },
+        {
+          "genreId": "Choral",
+          "title": "Choral",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_18.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Choral"
+        },
+        {
+          "genreId": "Neo-Psychedelic",
+          "title": "Neo-Psychedelic",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_20.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Neo-Psychedelic"
+        },
+        {
+          "genreId": "Nashville Sound",
+          "title": "Nashville Sound",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_16.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Nashville Sound"
+        },
+        {
+          "genreId": "Disco/Funk",
+          "title": "Disco/Funk",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_14.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Disco/Funk"
+        },
+        {
+          "genreId": "Corridos",
+          "title": "Corridos",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_25.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Corridos"
+        },
+        {
+          "genreId": "Smooth Soul",
+          "title": "Smooth Soul",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_13.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Smooth Soul"
+        },
+        {
+          "genreId": "Arena Rock",
+          "title": "Arena Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_17.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Arena Rock"
+        },
+        {
+          "genreId": "Reggae/Dub",
+          "title": "Reggae/Dub",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_9.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Reggae/Dub"
+        },
+        {
+          "genreId": "American Folk",
+          "title": "American Folk",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_8.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/American Folk"
+        },
+        {
+          "genreId": "Classical: String",
+          "title": "Classical: String",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_18.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Classical: String"
+        },
+        {
+          "genreId": "Malaysian Pop",
+          "title": "Malaysian Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Malaysian Pop"
+        },
+        {
+          "genreId": "Pop / Laiko",
+          "title": "Pop / Laiko",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_21.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Pop / Laiko"
+        },
+        {
+          "genreId": "Orchestral",
+          "title": "Orchestral",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_23.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Orchestral"
+        },
+        {
+          "genreId": "Film Score",
+          "title": "Film Score",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_7.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Film Score"
+        },
+        {
+          "genreId": "Cantautori",
+          "title": "Cantautori",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_7.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Cantautori"
+        },
+        {
+          "genreId": "Folk-Rock",
+          "title": "Folk-Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_8.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Folk-Rock"
+        },
+        {
+          "genreId": "European",
+          "title": "European",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_17.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/European"
+        },
+        {
+          "genreId": "Acoustic Blues",
+          "title": "Acoustic Blues",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_8.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Acoustic Blues"
+        },
+        {
+          "genreId": "Rap Metal",
+          "title": "Rap Metal",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_7.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Rap Metal"
+        },
+        {
+          "genreId": "Rockabilly",
+          "title": "Rockabilly",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_30.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Rockabilly"
+        },
+        {
+          "genreId": "World Beats",
+          "title": "World Beats",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_8.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/World Beats"
+        },
+        {
+          "genreId": "Pop-Folk",
+          "title": "Pop-Folk",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_25.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Pop-Folk"
+        },
+        {
+          "genreId": "Outlaw Country",
+          "title": "Outlaw Country",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_20.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Outlaw Country"
+        },
+        {
+          "genreId": "Dansband/Schlager",
+          "title": "Dansband/Schlager",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Dansband/Schlager"
+        },
+        {
+          "genreId": "Alternative Hip Hop",
+          "title": "Alternative Hip Hop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_13.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Alternative Hip Hop"
+        },
+        {
+          "genreId": "Garage Rock",
+          "title": "Garage Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_20.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Garage Rock"
+        },
+        {
+          "genreId": "Chicago Blues",
+          "title": "Chicago Blues",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_6.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Chicago Blues"
+        },
+        {
+          "genreId": "Piano",
+          "title": "Piano",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_14.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Piano"
+        },
+        {
+          "genreId": "Christmas Alternative",
+          "title": "Christmas Alternative",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_30.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Christmas Alternative"
+        },
+        {
+          "genreId": "Latin Christmas",
+          "title": "Latin Christmas",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_25.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Latin Christmas"
+        },
+        {
+          "genreId": "Christmas Piano",
+          "title": "Christmas Piano",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_12.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Christmas Piano"
+        },
+        {
+          "genreId": "Film Soundtrack",
+          "title": "Film Soundtrack",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_10.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Film Soundtrack"
+        },
+        {
+          "genreId": "Christian Pop",
+          "title": "Christian Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_9.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Christian Pop"
+        },
+        {
+          "genreId": "Classical: Modern Era",
+          "title": "Classical: Modern Era",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_4.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Classical: Modern Era"
+        },
+        {
+          "genreId": "Kayoukyoku",
+          "title": "Kayoukyoku",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_6.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Kayoukyoku"
+        },
+        {
+          "genreId": "Indian Pop",
+          "title": "Indian Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_1.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Indian Pop"
+        },
+        {
+          "genreId": "Rembetiko",
+          "title": "Rembetiko",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_29.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Rembetiko"
+        },
+        {
+          "genreId": "Noise Pop",
+          "title": "Noise Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_4.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Noise Pop"
+        },
+        {
+          "genreId": "Champeta",
+          "title": "Champeta",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_14.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Champeta"
+        },
+        {
+          "genreId": "Metalcore",
+          "title": "Metalcore",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_6.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Metalcore"
+        },
+        {
+          "genreId": "Asian",
+          "title": "Asian",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_1.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Asian"
+        },
+        {
+          "genreId": "Indian",
+          "title": "Indian",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_26.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Indian"
+        },
+        {
+          "genreId": "Christian Rock",
+          "title": "Christian Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_2.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Christian Rock"
+        },
+        {
+          "genreId": "Instrumental Rock",
+          "title": "Instrumental Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_3.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Instrumental Rock"
+        },
+        {
+          "genreId": "Musical",
+          "title": "Musical",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_15.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Musical"
+        },
+        {
+          "genreId": "Progressive Metal",
+          "title": "Progressive Metal",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_10.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Progressive Metal"
+        },
+        {
+          "genreId": "Folk Rock",
+          "title": "Folk Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_4.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Folk Rock"
+        },
+        {
+          "genreId": "Trance",
+          "title": "Trance",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_15.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Trance"
+        },
+        {
+          "genreId": "Classical: Instrumental",
+          "title": "Classical: Instrumental",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_5.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Classical: Instrumental"
+        },
+        {
+          "genreId": "Freestyle",
+          "title": "Freestyle",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_21.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Freestyle"
+        },
+        {
+          "genreId": "Heartland Rock",
+          "title": "Heartland Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_21.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Heartland Rock"
+        },
+        {
+          "genreId": "Dance Hall",
+          "title": "Dance Hall",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_18.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Dance Hall"
+        },
+        {
+          "genreId": "Classic R&B",
+          "title": "Classic R&B",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_13.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Classic R&B"
+        },
+        {
+          "genreId": "Irish Folk/Trad.",
+          "title": "Irish Folk/Trad.",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_2.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Irish Folk/Trad."
+        },
+        {
+          "genreId": "African Pop",
+          "title": "African Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_30.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/African Pop"
+        },
+        {
+          "genreId": "World Fusion",
+          "title": "World Fusion",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_2.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/World Fusion"
+        },
+        {
+          "genreId": "Thrash Metal",
+          "title": "Thrash Metal",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_23.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Thrash Metal"
+        },
+        {
+          "genreId": "Audiobook",
+          "title": "Audiobook",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Audiobook"
+        },
+        {
+          "genreId": "Spoken Word - Radio Play",
+          "title": "Spoken Word - Radio Play",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_12.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Spoken Word - Radio Play"
+        },
+        {
+          "genreId": "Pop Rap",
+          "title": "Pop Rap",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_10.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Pop Rap"
+        },
+        {
+          "genreId": "Noël",
+          "title": "Noël",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_18.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Noël"
+        },
+        {
+          "genreId": "Banda",
+          "title": "Banda",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_1.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Banda"
+        },
+        {
+          "genreId": "Folk Pop",
+          "title": "Folk Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_12.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Folk Pop"
+        },
+        {
+          "genreId": "Contemporary Country",
+          "title": "Contemporary Country",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_19.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Contemporary Country"
+        },
+        {
+          "genreId": "Afro House",
+          "title": "Afro House",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_18.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Afro House"
+        },
+        {
+          "genreId": "Emo Pop",
+          "title": "Emo Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_23.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Emo Pop"
+        },
+        {
+          "genreId": "Nu Metal",
+          "title": "Nu Metal",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_25.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Nu Metal"
+        },
+        {
+          "genreId": "Gothic/Wave",
+          "title": "Gothic/Wave",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_7.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Gothic/Wave"
+        },
+        {
+          "genreId": "Wort/Hörspiele",
+          "title": "Wort/Hörspiele",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_30.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Wort/Hörspiele"
+        },
+        {
+          "genreId": "Urban",
+          "title": "Urban",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_12.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Urban"
+        },
+        {
+          "genreId": "Lounge",
+          "title": "Lounge",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_12.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Lounge"
+        },
+        {
+          "genreId": "Pop Rock",
+          "title": "Pop Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_8.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Pop Rock"
+        },
+        {
+          "genreId": "Progressive",
+          "title": "Progressive",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_3.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Progressive"
+        },
+        {
+          "genreId": "Fado",
+          "title": "Fado",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Fado"
+        },
+        {
+          "genreId": "Jazz Rock",
+          "title": "Jazz Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Jazz Rock"
+        },
+        {
+          "genreId": "Drum & Bass",
+          "title": "Drum & Bass",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_17.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Drum & Bass"
+        },
+        {
+          "genreId": "Western Pop/Rock",
+          "title": "Western Pop/Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_2.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Western Pop/Rock"
+        },
+        {
+          "genreId": "Minneapolis Sound",
+          "title": "Minneapolis Sound",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_14.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Minneapolis Sound"
+        },
+        {
+          "genreId": "Yacht Rock",
+          "title": "Yacht Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_23.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Yacht Rock"
+        },
+        {
+          "genreId": "Showtunes",
+          "title": "Showtunes",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_10.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Showtunes"
+        },
+        {
+          "genreId": "Audiobooks",
+          "title": "Audiobooks",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_17.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Audiobooks"
+        },
+        {
+          "genreId": "Big Band",
+          "title": "Big Band",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_10.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Big Band"
+        },
+        {
+          "genreId": "Brazilian",
+          "title": "Brazilian",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_7.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Brazilian"
+        },
+        {
+          "genreId": "Country Blues",
+          "title": "Country Blues",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_19.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Country Blues"
+        },
+        {
+          "genreId": "New Orleans",
+          "title": "New Orleans",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_3.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/New Orleans"
+        },
+        {
+          "genreId": "Power Pop",
+          "title": "Power Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_16.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Power Pop"
+        },
+        {
+          "genreId": "African",
+          "title": "African",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_28.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/African"
+        },
+        {
+          "genreId": "Rap en Español",
+          "title": "Rap en Español",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_13.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Rap en Español"
+        },
+        {
+          "genreId": "Afro Pop",
+          "title": "Afro Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_5.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Afro Pop"
+        },
+        {
+          "genreId": "Chinese",
+          "title": "Chinese",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Chinese"
+        },
+        {
+          "genreId": "New Jack Swing",
+          "title": "New Jack Swing",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_19.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/New Jack Swing"
+        },
+        {
+          "genreId": "World Music (Asian)",
+          "title": "World Music (Asian)",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_25.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/World Music (Asian)"
+        },
+        {
+          "genreId": "Crossover Jazz",
+          "title": "Crossover Jazz",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_30.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Crossover Jazz"
+        },
+        {
+          "genreId": "Samba/Carnaval",
+          "title": "Samba/Carnaval",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_17.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Samba/Carnaval"
+        },
+        {
+          "genreId": "Cajun",
+          "title": "Cajun",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_15.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Cajun"
+        },
+        {
+          "genreId": "Folk Revival",
+          "title": "Folk Revival",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Folk Revival"
+        },
+        {
+          "genreId": "Alternative/Indie Italiana",
+          "title": "Alternative/Indie Italiana",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_25.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Alternative/Indie Italiana"
+        },
+        {
+          "genreId": "Lo-Fi",
+          "title": "Lo-Fi",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_13.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Lo-Fi"
+        },
+        {
+          "genreId": "Educational",
+          "title": "Educational",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_5.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Educational"
+        },
+        {
+          "genreId": "Christmas: R&B",
+          "title": "Christmas: R&B",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_11.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Christmas: R&B"
+        },
+        {
+          "genreId": "Ballet",
+          "title": "Ballet",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_21.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Ballet"
+        },
+        {
+          "genreId": "Oceania",
+          "title": "Oceania",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_12.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Oceania"
+        },
+        {
+          "genreId": "BritPop",
+          "title": "BritPop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_20.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/BritPop"
+        },
+        {
+          "genreId": "Sound Effect",
+          "title": "Sound Effect",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_14.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Sound Effect"
+        },
+        {
+          "genreId": "Soul Blues",
+          "title": "Soul Blues",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_28.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Soul Blues"
+        },
+        {
+          "genreId": "Gangsta Rap",
+          "title": "Gangsta Rap",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_22.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Gangsta Rap"
+        },
+        {
+          "genreId": "Swing Revival",
+          "title": "Swing Revival",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_9.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Swing Revival"
+        },
+        {
+          "genreId": "Punjabi/Bhangra",
+          "title": "Punjabi/Bhangra",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_8.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Punjabi/Bhangra"
+        },
+        {
+          "genreId": "Post-Punk",
+          "title": "Post-Punk",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_4.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Post-Punk"
+        },
+        {
+          "genreId": "Caribbean Pop",
+          "title": "Caribbean Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_17.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Caribbean Pop"
+        },
+        {
+          "genreId": "Fusion",
+          "title": "Fusion",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_25.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Fusion"
+        },
+        {
+          "genreId": "Country Pop",
+          "title": "Country Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_8.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Country Pop"
+        },
+        {
+          "genreId": "IndiPop",
+          "title": "IndiPop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_6.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/IndiPop"
+        },
+        {
+          "genreId": "Thai Pop",
+          "title": "Thai Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_16.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Thai Pop"
+        },
+        {
+          "genreId": "Alt-Country",
+          "title": "Alt-Country",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_8.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Alt-Country"
+        },
+        {
+          "genreId": "Acid Jazz",
+          "title": "Acid Jazz",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_20.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Acid Jazz"
+        },
+        {
+          "genreId": "Latin Jazz",
+          "title": "Latin Jazz",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_26.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Latin Jazz"
+        },
+        {
+          "genreId": "Breakbeat",
+          "title": "Breakbeat",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_21.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Breakbeat"
+        },
+        {
+          "genreId": "Art Punk",
+          "title": "Art Punk",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_5.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Art Punk"
+        },
+        {
+          "genreId": "Audio Books",
+          "title": "Audio Books",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_14.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Audio Books"
+        },
+        {
+          "genreId": "Mexican",
+          "title": "Mexican",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_13.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Mexican"
+        },
+        {
+          "genreId": "Southern Gospel",
+          "title": "Southern Gospel",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_10.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Southern Gospel"
+        },
+        {
+          "genreId": "Tango",
+          "title": "Tango",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_30.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Tango"
+        },
+        {
+          "genreId": "Electro",
+          "title": "Electro",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_4.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Electro"
+        },
+        {
+          "genreId": "Lounge/Trip-Hop",
+          "title": "Lounge/Trip-Hop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_15.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Lounge/Trip-Hop"
+        },
+        {
+          "genreId": "Pop/Rock Danish",
+          "title": "Pop/Rock Danish",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_7.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Pop/Rock Danish"
+        },
+        {
+          "genreId": "Middle Eastern",
+          "title": "Middle Eastern",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_13.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Middle Eastern"
+        },
+        {
+          "genreId": "Christmas Indie",
+          "title": "Christmas Indie",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Christmas Indie"
+        },
+        {
+          "genreId": "Afrikaans",
+          "title": "Afrikaans",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_22.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Afrikaans"
+        },
+        {
+          "genreId": "OPM Traditional",
+          "title": "OPM Traditional",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_27.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/OPM Traditional"
+        },
+        {
+          "genreId": "Hardcore",
+          "title": "Hardcore",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_28.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Hardcore"
+        },
+        {
+          "genreId": "Soul Jazz",
+          "title": "Soul Jazz",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_22.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Soul Jazz"
+        },
+        {
+          "genreId": "Afroswing/Afrobashment",
+          "title": "Afroswing/Afrobashment",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_29.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Afroswing/Afrobashment"
+        },
+        {
+          "genreId": "Country/Sertanejo",
+          "title": "Country/Sertanejo",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_3.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Country/Sertanejo"
+        },
+        {
+          "genreId": "New Age/Instrumental/Ambient",
+          "title": "New Age/Instrumental/Ambient",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_1.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/New Age/Instrumental/Ambient"
+        },
+        {
+          "genreId": "Soundtrack (Malayalam)",
+          "title": "Soundtrack (Malayalam)",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_3.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Soundtrack (Malayalam)"
+        },
+        {
+          "genreId": "Christmas: Rock",
+          "title": "Christmas: Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_30.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Christmas: Rock"
+        },
+        {
+          "genreId": "Cantautores",
+          "title": "Cantautores",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_16.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Cantautores"
+        },
+        {
+          "genreId": "Pop Punk",
+          "title": "Pop Punk",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_25.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Pop Punk"
+        },
+        {
+          "genreId": "Christmas Easy Listening",
+          "title": "Christmas Easy Listening",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_8.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Christmas Easy Listening"
+        },
+        {
+          "genreId": "Cuban",
+          "title": "Cuban",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_13.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Cuban"
+        },
+        {
+          "genreId": "Darkwave",
+          "title": "Darkwave",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_13.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Darkwave"
+        },
+        {
+          "genreId": "Acid Rock",
+          "title": "Acid Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_19.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Acid Rock"
+        },
+        {
+          "genreId": "Folclórica",
+          "title": "Folclórica",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_25.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Folclórica"
+        },
+        {
+          "genreId": "Electronic Pop",
+          "title": "Electronic Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_9.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Electronic Pop"
+        },
+        {
+          "genreId": "Bossa Nova",
+          "title": "Bossa Nova",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_15.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Bossa Nova"
+        },
+        {
+          "genreId": "Kwaito",
+          "title": "Kwaito",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_16.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Kwaito"
+        },
+        {
+          "genreId": "Philly Soul",
+          "title": "Philly Soul",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_3.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Philly Soul"
+        },
+        {
+          "genreId": "Regional Indian",
+          "title": "Regional Indian",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_27.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Regional Indian"
+        },
+        {
+          "genreId": "Boogie Rock",
+          "title": "Boogie Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_2.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Boogie Rock"
+        },
+        {
+          "genreId": "Lovers Rock",
+          "title": "Lovers Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_4.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Lovers Rock"
+        },
+        {
+          "genreId": "Latin Folk",
+          "title": "Latin Folk",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_11.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Latin Folk"
+        },
+        {
+          "genreId": "Folk/Country/Blues",
+          "title": "Folk/Country/Blues",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_20.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Folk/Country/Blues"
+        },
+        {
+          "genreId": "Chanson/Français",
+          "title": "Chanson/Français",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_9.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Chanson/Français"
+        },
+        {
+          "genreId": "Surf",
+          "title": "Surf",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_1.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Surf"
+        },
+        {
+          "genreId": "CCM",
+          "title": "CCM",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/CCM"
+        },
+        {
+          "genreId": "Symphony",
+          "title": "Symphony",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_27.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Symphony"
+        },
+        {
+          "genreId": "Southern Rap",
+          "title": "Southern Rap",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_17.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Southern Rap"
+        },
+        {
+          "genreId": "Christmas: Country",
+          "title": "Christmas: Country",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_9.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Christmas: Country"
+        },
+        {
+          "genreId": "Entehno",
+          "title": "Entehno",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_13.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Entehno"
+        },
+        {
+          "genreId": "Honky-Tonk",
+          "title": "Honky-Tonk",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_12.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Honky-Tonk"
+        },
+        {
+          "genreId": "Experimental",
+          "title": "Experimental",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_2.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Experimental"
+        },
+        {
+          "genreId": "Soundtrack (Bengali)",
+          "title": "Soundtrack (Bengali)",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_7.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Soundtrack (Bengali)"
+        },
+        {
+          "genreId": "Swedish Pop",
+          "title": "Swedish Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_9.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Swedish Pop"
+        },
+        {
+          "genreId": "Nu Jazz",
+          "title": "Nu Jazz",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_29.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Nu Jazz"
+        },
+        {
+          "genreId": "OPM Indie",
+          "title": "OPM Indie",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_1.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/OPM Indie"
+        },
+        {
+          "genreId": "Rap Rock",
+          "title": "Rap Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_4.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Rap Rock"
+        },
+        {
+          "genreId": "Flamenco Urbano",
+          "title": "Flamenco Urbano",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_5.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Flamenco Urbano"
+        },
+        {
+          "genreId": "Samba",
+          "title": "Samba",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_29.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Samba"
+        },
+        {
+          "genreId": "Instrumental Christmas",
+          "title": "Instrumental Christmas",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_13.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Instrumental Christmas"
+        },
+        {
+          "genreId": "Afro Beat",
+          "title": "Afro Beat",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_12.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Afro Beat"
+        },
+        {
+          "genreId": "Indie Electronic",
+          "title": "Indie Electronic",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_26.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Indie Electronic"
+        },
+        {
+          "genreId": "West Coast Hip Hop",
+          "title": "West Coast Hip Hop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_3.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/West Coast Hip Hop"
+        },
+        {
+          "genreId": "Classical: Violin",
+          "title": "Classical: Violin",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_13.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Classical: Violin"
+        },
+        {
+          "genreId": "Old School Hip Hop",
+          "title": "Old School Hip Hop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_4.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Old School Hip Hop"
+        },
+        {
+          "genreId": "Pop Mexicano",
+          "title": "Pop Mexicano",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_14.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Pop Mexicano"
+        },
+        {
+          "genreId": "JPop",
+          "title": "JPop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_17.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/JPop"
+        },
+        {
+          "genreId": "Traditional Blues",
+          "title": "Traditional Blues",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_29.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Traditional Blues"
+        },
+        {
+          "genreId": "Christmas Lullabies",
+          "title": "Christmas Lullabies",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_14.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Christmas Lullabies"
+        },
+        {
+          "genreId": "Popnejo",
+          "title": "Popnejo",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Popnejo"
+        },
+        {
+          "genreId": "Merengue",
+          "title": "Merengue",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_13.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Merengue"
+        },
+        {
+          "genreId": "Brit Pop",
+          "title": "Brit Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_25.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Brit Pop"
+        },
+        {
+          "genreId": "Volksmusik",
+          "title": "Volksmusik",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_11.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Volksmusik"
+        },
+        {
+          "genreId": "Christmas Hip-Hop",
+          "title": "Christmas Hip-Hop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_6.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Christmas Hip-Hop"
+        },
+        {
+          "genreId": "Christmas Soundtracks",
+          "title": "Christmas Soundtracks",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_21.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Christmas Soundtracks"
+        },
+        {
+          "genreId": "Europop",
+          "title": "Europop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_8.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Europop"
+        },
+        {
+          "genreId": "Trip Hop",
+          "title": "Trip Hop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_13.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Trip Hop"
+        },
+        {
+          "genreId": "Christmas Carols",
+          "title": "Christmas Carols",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_26.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Christmas Carols"
+        },
+        {
+          "genreId": "Modern Blues",
+          "title": "Modern Blues",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_27.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Modern Blues"
+        },
+        {
+          "genreId": "Neo-Soul",
+          "title": "Neo-Soul",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_13.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Neo-Soul"
+        },
+        {
+          "genreId": "Dixieland",
+          "title": "Dixieland",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_30.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Dixieland"
+        },
+        {
+          "genreId": "Roots",
+          "title": "Roots",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_2.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Roots"
+        },
+        {
+          "genreId": "Baby/Children",
+          "title": "Baby/Children",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_18.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Baby/Children"
+        },
+        {
+          "genreId": "Soundtrack (Telugu)",
+          "title": "Soundtrack (Telugu)",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_11.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Soundtrack (Telugu)"
+        },
+        {
+          "genreId": "Acapella",
+          "title": "Acapella",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_12.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Acapella"
+        },
+        {
+          "genreId": "Groove Metal",
+          "title": "Groove Metal",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Groove Metal"
+        },
+        {
+          "genreId": "Golden Age",
+          "title": "Golden Age",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_19.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Golden Age"
+        },
+        {
+          "genreId": "Gothic",
+          "title": "Gothic",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_18.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Gothic"
+        },
+        {
+          "genreId": "Latin Rap",
+          "title": "Latin Rap",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_29.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Latin Rap"
+        },
+        {
+          "genreId": "Brazilian Gospel",
+          "title": "Brazilian Gospel",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_13.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Brazilian Gospel"
+        },
+        {
+          "genreId": "Industrial",
+          "title": "Industrial",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_10.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Industrial"
+        },
+        {
+          "genreId": "HiphopRap",
+          "title": "HiphopRap",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_3.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/HiphopRap"
+        },
+        {
+          "genreId": "Cabaret",
+          "title": "Cabaret",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_6.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Cabaret"
+        },
+        {
+          "genreId": "Mariachi",
+          "title": "Mariachi",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_8.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Mariachi"
+        },
+        {
+          "genreId": "American Patriotic",
+          "title": "American Patriotic",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_6.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/American Patriotic"
+        },
+        {
+          "genreId": "Sertanejo",
+          "title": "Sertanejo",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_28.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Sertanejo"
+        },
+        {
+          "genreId": "Afro-fusion",
+          "title": "Afro-fusion",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_3.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Afro-fusion"
+        },
+        {
+          "genreId": "Acid Punk",
+          "title": "Acid Punk",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_23.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Acid Punk"
+        },
+        {
+          "genreId": "Soundtrack (Odia)",
+          "title": "Soundtrack (Odia)",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_9.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Soundtrack (Odia)"
+        },
+        {
+          "genreId": "Soundtrack (Kannada)",
+          "title": "Soundtrack (Kannada)",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_5.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Soundtrack (Kannada)"
+        },
+        {
+          "genreId": "Boy Band",
+          "title": "Boy Band",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_11.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Boy Band"
+        },
+        {
+          "genreId": "MPB (Brazilian Popular Music)",
+          "title": "MPB (Brazilian Popular Music)",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_29.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/MPB (Brazilian Popular Music)"
+        },
+        {
+          "genreId": "Jersey Club",
+          "title": "Jersey Club",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_4.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Jersey Club"
+        },
+        {
+          "genreId": "Neo-Traditional Country",
+          "title": "Neo-Traditional Country",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_2.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Neo-Traditional Country"
+        },
+        {
+          "genreId": "Folklore",
+          "title": "Folklore",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_12.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Folklore"
+        },
+        {
+          "genreId": "Emo Rap",
+          "title": "Emo Rap",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_5.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Emo Rap"
+        },
+        {
+          "genreId": "Electric Blues",
+          "title": "Electric Blues",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_4.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Electric Blues"
+        },
+        {
+          "genreId": "Villancicos",
+          "title": "Villancicos",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_26.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Villancicos"
+        },
+        {
+          "genreId": "Euro-House",
+          "title": "Euro-House",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_30.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Euro-House"
+        },
+        {
+          "genreId": "Club-House",
+          "title": "Club-House",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_14.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Club-House"
+        },
+        {
+          "genreId": "Rancheras",
+          "title": "Rancheras",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_30.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Rancheras"
+        },
+        {
+          "genreId": "Hard Bop",
+          "title": "Hard Bop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_10.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Hard Bop"
+        },
+        {
+          "genreId": "Christmas: Jazz",
+          "title": "Christmas: Jazz",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_12.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Christmas: Jazz"
+        },
+        {
+          "genreId": "Musica Religiosa",
+          "title": "Musica Religiosa",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_25.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Musica Religiosa"
+        },
+        {
+          "genreId": "Country Gospel",
+          "title": "Country Gospel",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Country Gospel"
+        },
+        {
+          "genreId": "Movie - Feature Film",
+          "title": "Movie - Feature Film",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_15.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Movie - Feature Film"
+        },
+        {
+          "genreId": "Copla",
+          "title": "Copla",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_30.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Copla"
+        },
+        {
+          "genreId": "Glam Rock",
+          "title": "Glam Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_4.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Glam Rock"
+        },
+        {
+          "genreId": "World Music/Traditional",
+          "title": "World Music/Traditional",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_2.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/World Music/Traditional"
+        },
+        {
+          "genreId": "Comedy/Humor",
+          "title": "Comedy/Humor",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_27.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Comedy/Humor"
+        },
+        {
+          "genreId": "WorldMusic",
+          "title": "WorldMusic",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_18.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/WorldMusic"
+        },
+        {
+          "genreId": "Funk Metal",
+          "title": "Funk Metal",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_30.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Funk Metal"
+        },
+        {
+          "genreId": "Gypsy",
+          "title": "Gypsy",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_18.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Gypsy"
+        },
+        {
+          "genreId": "Euro Pop",
+          "title": "Euro Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_28.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Euro Pop"
+        },
+        {
+          "genreId": "LatinMusic",
+          "title": "LatinMusic",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/LatinMusic"
+        },
+        {
+          "genreId": "Norteño",
+          "title": "Norteño",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_25.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Norteño"
+        },
+        {
+          "genreId": "Brazilian Rock",
+          "title": "Brazilian Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_14.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Brazilian Rock"
+        },
+        {
+          "genreId": "Chicano Rap",
+          "title": "Chicano Rap",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_2.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Chicano Rap"
+        },
+        {
+          "genreId": "Christmas Gospel",
+          "title": "Christmas Gospel",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_10.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Christmas Gospel"
+        },
+        {
+          "genreId": "Amapiano",
+          "title": "Amapiano",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_9.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Amapiano"
+        },
+        {
+          "genreId": "Art Rock",
+          "title": "Art Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_6.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Art Rock"
+        },
+        {
+          "genreId": "Classical: Harp",
+          "title": "Classical: Harp",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_25.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Classical: Harp"
+        },
+        {
+          "genreId": "Colombian Regional",
+          "title": "Colombian Regional",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_22.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Colombian Regional"
+        },
+        {
+          "genreId": "Dream Pop",
+          "title": "Dream Pop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_18.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Dream Pop"
+        },
+        {
+          "genreId": "OPM",
+          "title": "OPM",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_1.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/OPM"
+        },
+        {
+          "genreId": "Vallenato",
+          "title": "Vallenato",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_10.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Vallenato"
+        },
+        {
+          "genreId": "Underground Hip Hop",
+          "title": "Underground Hip Hop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_7.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Underground Hip Hop"
+        },
+        {
+          "genreId": "UK Hip Hop",
+          "title": "UK Hip Hop",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_16.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/UK Hip Hop"
+        },
+        {
+          "genreId": "World Music (Other)",
+          "title": "World Music (Other)",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_28.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/World Music (Other)"
+        },
+        {
+          "genreId": "Western Swing",
+          "title": "Western Swing",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_17.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Western Swing"
+        },
+        {
+          "genreId": "Rap From France",
+          "title": "Rap From France",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_1.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Rap From France"
+        },
+        {
+          "genreId": "Spirituals",
+          "title": "Spirituals",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_13.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Spirituals"
+        },
+        {
+          "genreId": "Rumba",
+          "title": "Rumba",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_7.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Rumba"
+        },
+        {
+          "genreId": "Sierreño",
+          "title": "Sierreño",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_19.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Sierreño"
+        },
+        {
+          "genreId": "Tropical Contemporáneo",
+          "title": "Tropical Contemporáneo",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_18.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Tropical Contemporáneo"
+        },
+        {
+          "genreId": "Trap Latino",
+          "title": "Trap Latino",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_14.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Trap Latino"
+        },
+        {
+          "genreId": "P-Funk",
+          "title": "P-Funk",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_27.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/P-Funk"
+        },
+        {
+          "genreId": "Television Score",
+          "title": "Television Score",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_14.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Television Score"
+        },
+        {
+          "genreId": "Psychobilly",
+          "title": "Psychobilly",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_19.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Psychobilly"
+        },
+        {
+          "genreId": "Polka",
+          "title": "Polka",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_24.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Polka"
+        },
+        {
+          "genreId": "Psychedelic Folk",
+          "title": "Psychedelic Folk",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_1.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Psychedelic Folk"
+        },
+        {
+          "genreId": "Pop Leve",
+          "title": "Pop Leve",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_22.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Pop Leve"
+        },
+        {
+          "genreId": "Progressive Bluegrass",
+          "title": "Progressive Bluegrass",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_10.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Progressive Bluegrass"
+        },
+        {
+          "genreId": "Post-Grunge",
+          "title": "Post-Grunge",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_12.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Post-Grunge"
+        },
+        {
+          "genreId": "Pop/Funk",
+          "title": "Pop/Funk",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_27.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Pop/Funk"
+        },
+        {
+          "genreId": "Pub Rock",
+          "title": "Pub Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_12.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Pub Rock"
+        },
+        {
+          "genreId": "Pinoy Rock",
+          "title": "Pinoy Rock",
+          "image": "https://music.libraryideas.com/freegalmusic/prod/EN/assets/genre/top_genre_3.jpg",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=genre-detail/Pinoy Rock"
+        }
+      ],
+      "limit": 1000,
+      "next": "null",
+      "offset": 0,
+      "previous": "null",
+      "total": 100
+    }
+  }
+}

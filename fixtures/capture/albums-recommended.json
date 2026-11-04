@@ -1,0 +1,189 @@
+// Probe: GET albums/recommended?offset=0&limit=10&provider=1 — captured 8KiB 2026-11-03 via logged-in patron (demo) as live-API feasibility verification for the Home tab; shapes pinned for models.rs.
+{
+  "success": true,
+  "responseCode": 17,
+  "responseMessage": "List of recommended albums.",
+  "href": "https://api.freegalmusic.com/v1/albums/recommended?offset=0&limit=10&provider=1",
+  "data": {
+    "albums": {
+      "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=albums/recommended",
+      "items": [
+        {
+          "artist": {
+            "artistId": "TmVpbCBEaWFtb25k",
+            "name": "Neil Diamond"
+          },
+          "albumId": 12075438,
+          "title": "Stages",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Pop",
+          "label": "Columbia",
+          "copyright": "Originally Released 1971 MCA Records/ (P) 2003 Neil Diamond and SONY BMG MUSIC ENTERTAINMENT",
+          "copyrightDate": 1971,
+          "imageUrl": "https://music.libraryideas.com/000/000/000/000/120/754/38/00000000000012075438-250x250_72dpi_RGB_100Q.jpg?token=REDACTED",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/12075438/1",
+          "streamStatus": true
+        },
+        {
+          "artist": {
+            "artistId": "Rm9vIEZpZ2h0ZXJz",
+            "name": "Foo Fighters"
+          },
+          "albumId": 9999900401955,
+          "title": "Your Favorite Toy",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Rock",
+          "label": "RCA Records Label",
+          "copyright": "(P) 2026 RCA Records, under exclusive license from Roswell Records, Inc.",
+          "copyrightDate": 2026,
+          "imageUrl": "https://music.libraryideas.com/171/030/117/000/574/327/321/A10301A0005743273E_T-1219028022510_Image.jpg?token=REDACTED",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/9999900401955/1",
+          "streamStatus": true
+        },
+        {
+          "artist": {
+            "artistId": "TXlsZXMgU21pdGggJiBOaWFsbCBIb3Jhbg",
+            "name": "Myles Smith & Niall Horan"
+          },
+          "albumId": 9999900400491,
+          "title": "Drive Safe",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Singer-Songwriter",
+          "label": "RCA Records Label",
+          "copyright": "(P) 2026 Sony Music Entertainment UK Limited under exclusive licence from It's Okay To Feel Limited",
+          "copyrightDate": 2026,
+          "imageUrl": "https://music.libraryideas.com/171/030/117/000/572/859/833/A10301A0005728598Q_T-1219028182160_Image.jpg?token=REDACTED",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/9999900400491/1",
+          "streamStatus": true
+        },
+        {
+          "artist": {
+            "artistId": "VmFyaW91cyBBcnRpc3Rz",
+            "name": "Various Artists"
+          },
+          "albumId": 885686350553,
+          "title": "200 Hits - the Only 200 Songs You'll Ever Need (a Desert Island Collection)",
+          "provider": 2,
+          "explicit": false,
+          "genre": "Rock",
+          "label": "Goldenlane Records",
+          "copyright": "(P) 2010 Goldenlane Records",
+          "copyrightDate": 2010,
+          "imageUrl": "https://music.libraryideas.com/theorchard/885/686/350/553/885686350553.jpg?token=REDACTED",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/885686350553/2",
+          "streamStatus": true
+        },
+        {
+          "artist": {
+            "artistId": "QmFkIEJ1bm55",
+            "name": "Bad Bunny"
+          },
+          "albumId": 199066342442,
+          "title": "DeBÍ TiRAR MáS FOToS",
+          "provider": 2,
+          "explicit": true,
+          "genre": "Latin Music",
+          "label": "Rimas Entertainment LLC.",
+          "copyright": "(P) 2024 Rimas Entertainment LLC.",
+          "copyrightDate": 2024,
+          "imageUrl": "https://music.libraryideas.com/theorchard/199/066/342/442/199066342442.jpg?token=REDACTED",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/199066342442/2",
+          "streamStatus": true
+        },
+        {
+          "artist": {
+            "artistId": "Q2FsdmluIEhhcnJpcywgS2FzYWJpYW4",
+            "name": "Calvin Harris, Kasabian"
+          },
+          "albumId": 9999900400730,
+          "title": "Release The Pressure",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Dance Pop",
+          "label": "Columbia",
+          "copyright": "(P) 2026 Sony Music Entertainment UK Limited",
+          "copyrightDate": 2026,
+          "imageUrl": "https://music.libraryideas.com/171/030/117/000/572/906/932/A10301A0005729069P_T-1219027928645_Image.jpg?token=REDACTED",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/9999900400730/1",
+          "streamStatus": true
+        },
+        {
+          "artist": {
+            "artistId": "VmFyaW91cyBBcnRpc3Rz",
+            "name": "Various Artists"
+          },
+          "albumId": 9999900398475,
+          "title": "Stranger Things: Soundtrack from the Netflix Series, Season 5",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Alternative/Experimental",
+          "label": "Legacy Recordings",
+          "copyright": "This compilation (P) 2025 Sony Music Entertainment",
+          "copyrightDate": 2025,
+          "imageUrl": "https://music.libraryideas.com/171/030/117/000/569/643/834/A10301A0005696438R_T-1219027721781_Image.jpg?token=REDACTED",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/9999900398475/1",
+          "streamStatus": true
+        },
+        {
+          "artist": {
+            "artistId": "VmFyaW91cyBBcnRpc3Rz",
+            "name": "Various Artists"
+          },
+          "albumId": 34255070,
+          "title": "Stranger Things: Soundtrack from the Netflix Original Series, Season 3",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Alternative",
+          "label": "Legacy Recordings",
+          "copyright": "This compilation (P) 2019 Sony Music Entertainment",
+          "copyrightDate": 2019,
+          "imageUrl": "https://music.libraryideas.com/171/030/117/000/409/746/725/A10301A0004097467I_T-1024013645720_Image.jpg?token=REDACTED",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/34255070/1",
+          "streamStatus": true
+        },
+        {
+          "artist": {
+            "artistId": "SGFycnkgU3R5bGVz",
+            "name": "Harry Styles"
+          },
+          "albumId": 9999900399855,
+          "title": "Aperture",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Dance",
+          "label": "Columbia",
+          "copyright": "(P) 2026 Erskine Records Limited, under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
+          "copyrightDate": 2026,
+          "imageUrl": "https://music.libraryideas.com/171/030/117/000/573/609/936/A10301A0005736099T_T-1219027948601_Image.jpg?token=REDACTED",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/9999900399855/1",
+          "streamStatus": true
+        },
+        {
+          "artist": {
+            "artistId": "V2hhbSE",
+            "name": "Wham!"
+          },
+          "albumId": 24463977,
+          "title": "The Final",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Dance",
+          "label": "Sony Music UK",
+          "copyright": "(P) 1986 Sony Music Entertainment UK Limited",
+          "copyrightDate": 1986,
+          "imageUrl": "https://music.libraryideas.com/000/000/000/000/244/639/77/A10301A0002718245K_T-102409781195_Image.jpg?token=REDACTED",
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/24463977/1",
+          "streamStatus": true
+        }
+      ],
+      "limit": 10,
+      "next": "https://api.freegalmusic.com/v1/albums/recommended?offset=10&limit=10&provider=1&explicit=true",
+      "offset": 0,
+      "previous": "null",
+      "total": 100
+    }
+  }
+}

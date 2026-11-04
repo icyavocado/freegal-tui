@@ -1,0 +1,28 @@
+---
+source: src/ui/tests.rs
+expression: backend
+---
+"♪ freegal  [● Home] │ My Music │ Queue │ History │ Downloads       not signed in"
+"╭──────────────────────────────────────────────────────────────────────────────╮"
+"   🔍 Search songs, artists, albums — press / to type                          │" Hidden by multi-width symbols: [(4, " ")]
+"╰──────────────────────────────────────────────────────────────────────────────╯"
+"                                                                                "
+"[→ Artists]  [→ Trending]  [→ New]  [→ Albums]  [→ Playlists]  [→ Genres]       "
+"                                                                                "
+"╭ library playlists ───╮     → Featured Songs                                   "
+"│  Study & Chill (35)  │ 1   Golden Hour               Kacey Musgraves   -      "
+"│                      │ 2   Midnight City             M83               4:03   "
+"│                      │     → More of what you'd like                          "
+"│                      │ 3   Stages                    Neil Diamond      2003   "
+"│                      │     → Library Playlists                                "
+"│                      │ 4   Study & Chill                               35 son "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"╰──────────────────────╯                                                        "
+"[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit "
+"                                                                                "
+"                                                                                "

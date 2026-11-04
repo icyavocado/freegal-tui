@@ -1,0 +1,28 @@
+---
+source: src/ui/tests.rs
+expression: backend
+---
+"♪ freegal  [● Home] │ My Music │ Queue │ History │ Downloads       not signed in"
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+" ╭ errors (newest last) ──────────────────────────────────────────────────────╮ "
+" │  search failed: 61: invalid session — re-login                             │ "
+" │  download failed: HTTP 502                                                 │ "
+" │  playback unavailable (connection lost)                                    │ "
+" │                                                                            │ "
+" │                                                                            │ "
+" ╰────────────────────────────────────────────────────────────────────────────╯ "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit "
+"                                                                                "
+"                                                                                "

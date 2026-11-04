@@ -1,0 +1,28 @@
+---
+source: src/ui/tests.rs
+expression: backend
+---
+"♪ freegal  Home │ [● My Music] │ Queue │ History │ Downloads       not signed in"
+"╭──────────────────────────────────────────────────────────────────────────────╮"
+"   🔍 Search songs, artists, albums — press / to type                          │" Hidden by multi-width symbols: [(4, " ")]
+"╰──────────────────────────────────────────────────────────────────────────────╯"
+"                                                                                "
+"     → My Playlists                                                             "
+"1    Road Trip 2026                         Highway tracks            24 son    "
+"     → Downloaded Songs                                                         "
+"2    Weightless                             Marconi Union             8:01      "
+"     → Favorites                                                                "
+"     Your Favorite Songs, Playlists, Album                                      "
+"     → Wishlist                                                                 "
+"     Your Wishlist Songs will appear here.                                      "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit "
+"                                                                                "
+"                                                                                "

@@ -1,0 +1,34 @@
+// record-stream-time — POST, live capture (two posts: userStreamedTime is a DELTA
+// since the previous post, bundle: userStreamedTime = currentPlayTime -
+// previouslyRecorded). 'token' is CLIENT-GENERATED (playerService.generateToken):
+//   "WEB_" + Y + M(0-based month! Nov=10) + D + H + mm + s + ms + "_" + rand(1..10000)
+//   unpadded concatenation, UTC — e.g. WEB_2026102213826198_5550 = 2026-11-02 21:38:26.198
+// eventFired: 13 observed on both pause-window posts; exact event taxonomy unknown —
+// we always send 13 (matches observed pause/interval behavior).
+{
+  "request": {
+    "method": "POST",
+    "url": "https://api.freegalmusic.com/v1/record-stream-time?language=en",
+    "content_type": "application/json",
+    "body": {
+      "songId": 378769666,
+      "provider": 1,
+      "playlistId": null,
+      "queueType": 2,
+      "eventFired": 13,
+      "userStreamedTime": 4,
+      "token": "WEB_2026102213826198_5550"
+    }
+  },
+  "response": {
+    "http_status": 200,
+    "body": {
+      "success": true,
+      "responseCode": 204,
+      "responseMessage": "Streaming time recorded successfully.",
+      "href": "https://api.freegalmusic.com/v1/record-stream-time?language=en",
+      "data": { "timeRemaining": "UNLIMITED" }
+    }
+  },
+  "note": "second observed post ~10s later carried userStreamedTime 15 (delta). Send after pause/track-end AND every ~10s of playback; update remaining-time display from data.timeRemaining (UNLIMITED or seconds)."
+}

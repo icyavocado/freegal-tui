@@ -1,0 +1,28 @@
+---
+source: src/ui/tests.rs
+expression: backend
+---
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"         ╭ sign in · step 1 of 4 ─────────────────────────────────────╮         "
+"         │  [library]-confirm-card-pin                                │         "
+"         │  Library website                                           │         "
+"         │                                                            │         "
+"         │                                                            │         "
+"         │                                                            │         "
+"         │                                                            │         "
+"         │  [Enter] continue · [Esc] back · [Ctrl-C] quit             │         "
+"         │                                                            │         "
+"         │                                                            │         "
+"         │                                                            │         "
+"         │                                                            │         "
+"         │                                                            │         "
+"         ╰────────────────────────────────────────────────────────────╯         "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "

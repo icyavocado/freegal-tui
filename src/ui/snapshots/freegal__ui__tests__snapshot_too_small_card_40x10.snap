@@ -1,0 +1,14 @@
+---
+source: src/ui/tests.rs
+expression: backend
+---
+"♪ freegal                               "
+"╭ Home ────────────────────────────────╮"
+"│    press R to load the home feeds    │"
+"│                                      │"
+"│                                      │"
+"│                                      │"
+"│                                      │"
+"╰──────────────────────────────────────╯"
+"                                        "
+"                                        "

@@ -1,0 +1,307 @@
+// Probe: GET songs/recommended?offset=0&limit=10&provider=1 — captured 11KiB 2026-11-03 via logged-in patron (demo) as live-API feasibility verification for the Home tab; shapes pinned for models.rs.
+{
+  "success": true,
+  "responseCode": 17,
+  "responseMessage": "List of recommended songs.",
+  "href": "https://api.freegalmusic.com/v1/songs/recommended?offset=0&limit=10&provider=1",
+  "data": {
+    "songs": {
+      "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=songs/recommended",
+      "items": [
+        {
+          "album": {
+            "artist": {
+              "artistId": "Rm9vIEZpZ2h0ZXJz",
+              "name": "Foo Fighters"
+            },
+            "albumId": 9999900401955,
+            "title": "Your Favorite Toy",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Rock",
+            "label": "RCA Records Label",
+            "copyright": "(P) 2026 RCA Records, under exclusive license from Roswell Records, Inc.",
+            "copyrightDate": 2026,
+            "imageUrl": "https://music.libraryideas.com/171/030/117/000/574/327/321/A10301A0005743273E_T-1219028022510_Image.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "Rm9vIEZpZ2h0ZXJz",
+            "name": "Foo Fighters"
+          },
+          "songId": 377825225,
+          "albumId": 9999900401955,
+          "title": "Your Favorite Toy",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Rock",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 176,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/9999900401955/1"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "TXlsZXMgU21pdGggJiBOaWFsbCBIb3Jhbg",
+              "name": "Myles Smith & Niall Horan"
+            },
+            "albumId": 9999900400491,
+            "title": "Drive Safe",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Singer-Songwriter",
+            "label": "RCA Records Label",
+            "copyright": "(P) 2026 Sony Music Entertainment UK Limited under exclusive licence from It's Okay To Feel Limited",
+            "copyrightDate": 2026,
+            "imageUrl": "https://music.libraryideas.com/171/030/117/000/572/859/833/A10301A0005728598Q_T-1219028182160_Image.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "TXlsZXMgU21pdGggJiBOaWFsbCBIb3Jhbg",
+            "name": "Myles Smith & Niall Horan"
+          },
+          "songId": 377724657,
+          "albumId": 9999900400491,
+          "title": "Drive Safe",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Singer-Songwriter",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 201,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/9999900400491/1"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "Q2FsdmluIEhhcnJpcywgS2FzYWJpYW4",
+              "name": "Calvin Harris, Kasabian"
+            },
+            "albumId": 9999900400730,
+            "title": "Release The Pressure",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Dance Pop",
+            "label": "Columbia",
+            "copyright": "(P) 2026 Sony Music Entertainment UK Limited",
+            "copyrightDate": 2026,
+            "imageUrl": "https://music.libraryideas.com/171/030/117/000/572/906/932/A10301A0005729069P_T-1219027928645_Image.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "Q2FsdmluIEhhcnJpcyAmIEthc2FiaWFu",
+            "name": "Calvin Harris & Kasabian"
+          },
+          "songId": 377746122,
+          "albumId": 9999900400730,
+          "title": "Release The Pressure",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Dance Pop",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 203,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/9999900400730/1"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "TmVpbCBEaWFtb25k",
+              "name": "Neil Diamond"
+            },
+            "albumId": 12075438,
+            "title": "Stages",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Pop",
+            "label": "Columbia",
+            "copyright": "Originally Released 1971 MCA Records/ (P) 2003 Neil Diamond and SONY BMG MUSIC ENTERTAINMENT",
+            "copyrightDate": 1971,
+            "imageUrl": "https://music.libraryideas.com/000/000/000/000/120/754/38/00000000000012075438-250x250_72dpi_RGB_100Q.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "TmVpbCBEaWFtb25k",
+            "name": "Neil Diamond"
+          },
+          "songId": 14665876,
+          "albumId": 12075438,
+          "title": "Sweet Caroline",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Pop",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 263,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/12075438/1"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "SGFycnkgU3R5bGVz",
+              "name": "Harry Styles"
+            },
+            "albumId": 9999900399855,
+            "title": "Aperture",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Dance",
+            "label": "Columbia",
+            "copyright": "(P) 2026 Erskine Records Limited, under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
+            "copyrightDate": 2026,
+            "imageUrl": "https://music.libraryideas.com/171/030/117/000/573/609/936/A10301A0005736099T_T-1219027948601_Image.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "SGFycnkgU3R5bGVz",
+            "name": "Harry Styles"
+          },
+          "songId": 377695232,
+          "albumId": 9999900399855,
+          "title": "Aperture",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Dance",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 311,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/9999900399855/1"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "THVrZSBDb21icw",
+              "name": "Luke Combs"
+            },
+            "albumId": 9999900401518,
+            "title": "Be By You",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Pop",
+            "label": "Columbia Nashville",
+            "copyright": "(P) 2026 Seven Ridges Records, LLC, under exclusive license to Sony Music Entertainment. All rights reserved.",
+            "copyrightDate": 2026,
+            "imageUrl": "https://music.libraryideas.com/171/030/117/000/572/011/56/A10301A00057201156_T-1219027841587_Image.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "THVrZSBDb21icw",
+            "name": "Luke Combs"
+          },
+          "songId": 377789315,
+          "albumId": 9999900401518,
+          "title": "Be By You",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Pop",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 197,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/9999900401518/1"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "UkFZRSwgRGF2aWQgR3VldHRhICYgSHlwYXRvbg",
+              "name": "RAYE, David Guetta & Hypaton"
+            },
+            "albumId": 199806406595,
+            "title": "WHERE IS MY HUSBAND!",
+            "provider": 2,
+            "explicit": false,
+            "genre": "Electronic",
+            "label": "Human Re Sources",
+            "copyright": "(P) 2025 RAYE under exclusive license to Human Re Sources",
+            "copyrightDate": 2025,
+            "imageUrl": "https://music.libraryideas.com/theorchard/199/806/406/595/199806406595.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "UkFZRQ",
+            "name": "RAYE"
+          },
+          "songId": 377447690,
+          "albumId": 199806406595,
+          "title": "WHERE IS MY HUSBAND!",
+          "provider": 2,
+          "explicit": false,
+          "genre": "Electronic",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 196,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/199806406595/2"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "TmVpbCBEaWFtb25k",
+              "name": "Neil Diamond"
+            },
+            "albumId": 12075438,
+            "title": "Stages",
+            "provider": 1,
+            "explicit": false,
+            "genre": "Pop",
+            "label": "Columbia",
+            "copyright": "Originally Released 1971 MCA Records/ (P) 2003 Neil Diamond and SONY BMG MUSIC ENTERTAINMENT",
+            "copyrightDate": 1971,
+            "imageUrl": "https://music.libraryideas.com/000/000/000/000/120/754/38/00000000000012075438-250x250_72dpi_RGB_100Q.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "TmVpbCBEaWFtb25k",
+            "name": "Neil Diamond"
+          },
+          "songId": 14665863,
+          "albumId": 12075438,
+          "title": "I'm A Believer",
+          "provider": 1,
+          "explicit": false,
+          "genre": "Pop",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 202,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/12075438/1"
+        },
+        {
+          "album": {
+            "artist": {
+              "artistId": "QmFkIEJ1bm55",
+              "name": "Bad Bunny"
+            },
+            "albumId": 199066342442,
+            "title": "DeBÍ TiRAR MáS FOToS",
+            "provider": 2,
+            "explicit": true,
+            "genre": "Latin Music",
+            "label": "Rimas Entertainment LLC.",
+            "copyright": "(P) 2024 Rimas Entertainment LLC.",
+            "copyrightDate": 2024,
+            "imageUrl": "https://music.libraryideas.com/theorchard/199/066/342/442/199066342442.jpg?token=REDACTED"
+          },
+          "artist": {
+            "artistId": "QmFkIEJ1bm55",
+            "name": "Bad Bunny"
+          },
+          "songId": 375516399,
+          "albumId": 199066342442,
+          "title": "DtMF",
+          "provider": 2,
+          "explicit": true,
+          "genre": "Latin Music",
+          "sampleDurationSec": 30,
+          "fullDurationSec": 237,
+          "downloadStatus": true,
+          "streamStatus": true,
+          "freegalUrl": "https://demopubliclibrary.freegalmusic.com/services/validate?redirectUrl=album/199066342442/2"
+        }
+      ],
+      "limit": 10,
+      "next": "https://api.freegalmusic.com/v1/songs/recommended?offset=10&limit=10&provider=1&explicit=true",
+      "offset": 0,
+      "previous": "null",
+      "total": 100
+    }
+  }
+}

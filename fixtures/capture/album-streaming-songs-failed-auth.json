@@ -1,0 +1,21 @@
+// album/streaming-songs — AUTH FAILURE captured live (GET, HTTP 200)
+// Context: called by the web player with a *stale* bootstrap Bearer token paired with
+// a live session authenticationtoken. Same session token succeeded on other endpoints
+// moments later once the page re-bootstrapped. This anchors the recovery rule:
+// rc 200 "not logged into the application" → re-fetch bootstrap → retry once →
+// only then re-login. (responseCode is NOT HTTP-like: 200 here means NOT-AUTHED.)
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api.freegalmusic.com/v1/album/streaming-songs?albumId=9999900412847&provider=1&language=en"
+  },
+  "response": {
+    "http_status": 200,
+    "body": {
+      "success": false,
+      "responseCode": 200,
+      "responseMessage": "Sorry, you are currently not logged into the application. (200)",
+      "href": "https://api.freegalmusic.com/v1/album/streaming-songs?albumId=9999900412847&provider=1&language=en"
+    }
+  }
+}

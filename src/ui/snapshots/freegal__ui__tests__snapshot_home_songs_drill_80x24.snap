@@ -1,0 +1,28 @@
+---
+source: src/ui/tests.rs
+expression: backend
+---
+"♪ freegal  [● Home] │ My Music │ Queue │ History │ Downloads       not signed in"
+"╭ library playlists ───╮  Home                                                  "
+"│  Study & Chill (35)  │ 1   Weightless                Marconi Union      8:01  "
+"│                      │ 2   Teardrop                  Massive Attack     5:30  "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"│                      │                                                        "
+"╰──────────────────────╯                                    2 tracks · Esc: back"
+"[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit "
+"                                                                                "
+"                                                                                "

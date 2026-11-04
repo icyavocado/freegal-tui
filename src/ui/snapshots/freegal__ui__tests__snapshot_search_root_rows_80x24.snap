@@ -1,0 +1,28 @@
+---
+source: src/ui/tests.rs
+expression: backend
+---
+"♪ freegal  [● Home] │ My Music │ Queue │ History │ Downloads       not signed in"
+"╭──────────────────────────────────────────────────────────────────────────────╮"
+"  abba                                                                         │"
+"╰──────────────────────────────────────────────────────────────────────────────╯"
+"                                                                                "
+"#    Type     Title            Artist           Album                Len     E  "
+"1    song     Some Long Song   Abba             Arrival              3:51       "
+"2    song     Instrumental     ABBA             Arrival              -       [E]"
+"3    song     Short Song       Cher             Living Proof         3:24       "
+"4    artist   Queen            Queen                                 -          "
+"5    album    A Night at the   Queen            1975                 -          "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"                                                                                "
+"sort: best match                                                                "
+"[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit "
+"                                                                                "
+"                                                                                "

@@ -1,0 +1,736 @@
+freegal TUI — INTERFACES REFERENCE
+================================================================================
+
+WHAT THIS FILE IS
+  The complete catalogue of freegal's TUI surfaces, each with its INTENTION
+  (why the interface exists, what the user is meant to accomplish there, and
+  which web-parity decisions shaped it), its keys, its API backing, and a
+  captured panel.
+
+HOW TO USE IT
+  - "Interface refreshes" start here: pick a surface, read its intention, then
+    change the renderer + this file in the same commit.
+  - Panels are generated from the insta snapshot tests (src/ui/tests.rs). To
+    refresh panels after a UI change: INSTA_UPDATE=always cargo test --release
+    snapshot_  →  review each *.snap diff per file  →  delete stale *.snap.new
+    (see AGENTS.md etiquette)  →  re-run this generator.
+  - Intent lines are the non-negotiable part: if code and this file disagree,
+    one of them is wrong.
+
+GLOBAL DESIGN PRINCIPLES
+  - One screen enum (Login/Resume/Home), five TABS: 1 Home · 2 My Music ·
+    3 Queue · 4 History · 5 Downloads. Tabs are view filters, not screens —
+    the Screen stays Home once signed in.
+  - Tab bar shows names only (Home │ My Music │ …). With five tabs the old
+    "[n] Name" pills no longer fit 80 cols beside the status chip, so the
+    digits moved to the hint bar and live on as keys (1-5 / s m q d h).
+  - Esc ALWAYS pops exactly one drill level and never crosses tabs.
+  - Feeds are human-paced sequential GETs, 30-minute disk cache (cache.json);
+    R = refetch (fresh), bypassing cache.
+  - Freegal rc-as-empty map (server uses codes instead of messages for empty
+    user state): 46 no songs · 115 no playlists · 174 no downloaded ids ·
+    247 nothing streamed · 640 unavailable-for-library. All render as empty
+    states, never errors. 235/233 on bare genres = success-alternates
+    (data still parses).
+  - TestBackend snapshots record SYMBOLS only (colors invisible); the genre
+    dots ● and chips get their colors from chrome::genre_dot(title) — a
+    deterministic 12-hue palette hash.
+
+
+================================================================================
+01 · LOGIN WIZARD  (4 steps)
+================================================================================
+intention : Get a patron authenticated with zero terminal knowledge: subdomain → library confirm → library card → PIN, with a manual libraryId fallback modal when a subdomain resolves to several libraries. Everything is invisible afterwards (silent re-auth restores the exact prior screen).
+keys      : type · Enter next · Esc/back back a step · credentials land in ~/.config/freegal/creds.toml (0600)
+api       : library resolve (subdomain), login with card+PIN, bootstrap pairing token
+empty     : errors render inline in the wizard card
+notes     : wizard is the only true Screen other than Home; re-auth is invisible
+
+--- panel: snapshot_login_wizard_80x24 (80x24 unless noted) ---
+
+
+
+
+
+         ╭ sign in · step 1 of 4 ─────────────────────────────────────╮
+         │  [library]-confirm-card-pin                                │
+         │  Library website                                           │
+         │                                                            │
+         │                                                            │
+         │                                                            │
+         │                                                            │
+         │  [Enter] continue · [Esc] back · [Ctrl-C] quit             │
+         │                                                            │
+         │                                                            │
+         │                                                            │
+         │                                                            │
+         │                                                            │
+         ╰────────────────────────────────────────────────────────────╯
+
+================================================================================
+02 · HOME TAB — root dashboard
+================================================================================
+intention : Web-parity of Freegal's home page (Nov 2026): the library's editorial dashboard as one keyboard-navigable column. Five quick links (Discover Artists / Now Trending / New Arrivals / Discover Albums / Explore Playlists / Explore Genres) mirror the web's image-card quick links; below, nine sections in the web's own order with clickable heading rows, 4 items each. Sidebar = the Library's Playlists (library-scoped, same for every patron).
+keys      : ↑↓ jk / g G move · ←→ focus sidebar · Enter open (heading = full drill, song = play) · a/A queue · y download · / or s search · R refetch feeds · 1-5 tabs
+api       : one client call home_feed(HomeFeed,limit,fresh) over slugs: songs/featured, albums/recommended (More of what you'd like — ALBUMS on the real site), playlists/library-playlists, user/songs/recently-played, playlists/recommended, playlists/featured, artists/featured, albums/new, playlists/top (+songs/top, albums/featured for quick-link drills)
+empty     : sections hide themselves until Done; failed section names itself in the status row with 'Error: <title>: <e> — R to retry'
+notes     : recently-played is user state (server-side per patron); quick-link drills fetch 50 rows (DRILL_LIMIT)
+
+--- panel: snapshot_home_root_80x24 (80x24 unless noted) ---
+♪ freegal  [● Home] │ My Music │ Queue │ History │ Downloads       not signed in
+╭──────────────────────────────────────────────────────────────────────────────╮
+   🔍 Search songs, artists, albums — press / to type                          │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+[→ Artists]  [→ Trending]  [→ New]  [→ Albums]  [→ Playlists]  [→ Genres]
+
+╭ library playlists ───╮     → Featured Songs
+│  Study & Chill (35)  │ 1   Golden Hour               Kacey Musgraves   -
+│                      │ 2   Midnight City             M83               4:03
+│                      │     → More of what you'd like
+│                      │ 3   Stages                    Neil Diamond      2003
+│                      │     → Library Playlists
+│                      │ 4   Study & Chill                               35 son
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+╰──────────────────────╯
+[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit
+
+================================================================================
+03 · HOME TAB — drill: section/quick-link songs list
+================================================================================
+intention : The full (50-row) cast of a songs feed, playable like any list: Enter plays and queues the rest of the list after it.
+keys      : ↑↓ jk · g G · Enter play (rest queued) · a append · A play-next · y download · Esc pop one level
+api       : home_feed(feed, DRILL_LIMIT=50)
+empty     : 'nothing here yet' when empty; loading… while the drill is pending
+notes     : Esc pops to Root
+
+--- panel: snapshot_home_songs_drill_80x24 (80x24 unless noted) ---
+♪ freegal  [● Home] │ My Music │ Queue │ History │ Downloads       not signed in
+╭ library playlists ───╮  Home
+│  Study & Chill (35)  │ 1   Weightless                Marconi Union      8:01
+│                      │ 2   Teardrop                  Massive Attack     5:30
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+╰──────────────────────╯                                    2 tracks · Esc: back
+[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit
+
+================================================================================
+04 · HOME TAB — drill: albums / playlists / artists cards
+================================================================================
+intention : Card rows for album/playlist/artist feeds: albums open the album detail, playlists open their song list, artists open their album list — mirroring the web's View All pages.
+keys      : ↑↓ jk · Enter open · Esc pop
+api       : home_feed drills (HomeFeeds/Homefeed commands); artist drill reuses artist/albums
+empty     : —
+
+================================================================================
+05 · GENRES — list (A→Z of the library's genres)
+================================================================================
+intention : Rescued the Browse-Genres feature cut from Home: the web keeps genres under its own Genres nav, reached here as the 6th Home quick link. Bare `genres` call returns 50 genre names; each row shows a colored ● dot (deterministic per-title hue) + TITLE. Enter opens the genre detail page.
+keys      : ↑↓ jk · g G · Enter open detail · R refetch fresh · Esc pop
+api       : GET genres (bare, no params) → rc 235 data.genres Page[50] {title,image}
+empty     : 'no genres known to this library' if the library returns none
+notes     : colored dots come from chrome::genre_dot (invisible in TestBackend snaps)
+
+--- panel: snapshot_genres_list_80x24 (80x24 unless noted) ---
+♪ freegal  [● Home] │ My Music │ Queue │ History │ Downloads       not signed in
+╭ library playlists ───╮  Home
+│  Study & Chill (35)  │ ●    POP
+│                      │ ●    ROCK
+│                      │ ●    JAZZ
+│                      │ ●    COUNTRY
+│                      │ ●    HIP-HOP/RAP
+│                      │ ●    CLASSICAL
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+╰──────────────────────╯                                  6 genres · Esc: back
+[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit
+
+================================================================================
+06 · GENRE DETAIL — Pop-style page
+================================================================================
+intention : The web's genre-detail page condensed: subgenre chips on top (Enter re-drills with subGenreName → header shows GENRE › SUB), then Songs (15), Playlists (8), Albums (8), Artists (12). Playlists/albums/artists rows drill exactly like Home cards. Fetched as one combined command (5 sequential GETs) so the drill loads once.
+keys      : ↑↓ jk · Enter open (song plays) · Esc pops back to the genre list when cached
+api       : genre/song · genre/playlist · genre/album · genre/artist (all genreName=&subGenreName=, sortBy=sortId DESC) + subgenres?genreName=(6, top-level only)
+empty     : 'nothing in this genre'
+notes     : genre/trending-album intentionally unused (scope): genre/album covers the Albums section
+
+--- panel: snapshot_genre_detail_80x24 (80x24 unless noted) ---
+♪ freegal  [● Home] │ My Music │ Queue │ History │ Downloads       not signed in
+╭ library playlists ───╮  Home
+│  Study & Chill (35)  │     → Subgenres
+│                      │ ●   Synth-pop
+│                      │ ●   Acoustic Pop
+│                      │     → Songs
+│                      │ 1   Blinding Lights           The Weeknd        3:20
+│                      │     → Playlists
+│                      │ 2   Heart Beats                                 0 song
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+│                      │
+╰──────────────────────╯                                     7 items · Esc: back
+[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit
+
+================================================================================
+07 · SEARCH surface (inside Home)
+================================================================================
+intention : Freegal's search rendered as the Home tab's first-class surface: `/` or `s` focuses the full-width input strip; typing swaps the dashboard for live result lists; song/artist/album kinds. Artist and album contexts stack (drill in, Esc pops out).
+keys      : / focus · type · kind switch · Enter play/open · Esc clears query → dashboard
+api       : search endpoint with flag=1 (NOTES: search needs flag=1); same Song/Album/Artist shapes
+empty     : zero-results snapshot documents the empty query list
+notes     : the search input doubles as Home's launcher strip on the dashboard
+
+--- panel: snapshot_search_root_rows_80x24 (80x24 unless noted) ---
+♪ freegal  [● Home] │ My Music │ Queue │ History │ Downloads       not signed in
+╭──────────────────────────────────────────────────────────────────────────────╮
+  abba                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+#    Type     Title            Artist           Album                Len     E
+1    song     Some Long Song   Abba             Arrival              3:51
+2    song     Instrumental     ABBA             Arrival              -       [E]
+3    song     Short Song       Cher             Living Proof         3:24
+4    artist   Queen            Queen                                 -
+5    album    A Night at the   Queen            1975                 -
+
+
+
+
+
+
+
+
+
+sort: best match
+[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit
+
+--- panel: snapshot_search_artist_ctx_80x24 (80x24 unless noted) ---
+♪ freegal  [● Home] │ My Music │ Queue │ History │ Downloads       not signed in
+Queen
+
+Year   Album                                                            Tracks
+1975   A Night at the Opera                                             1
+1977   News of the World
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Esc: back
+[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit
+
+--- panel: snapshot_search_album_ctx_80x24 (80x24 unless noted) ---
+♪ freegal  [● Home] │ My Music │ Queue │ History │ Downloads       not signed in
+A Night at the Opera
+Queen  ·  1975  ·  Rock
+
+#    Title                                                                Len
+     Death on Two Legs (Dedicated to...)                                  3:43
+     Bohemian Rhapsody                                                    5:55
+     You're My Best Friend                                                2:52
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit
+
+--- panel: snapshot_search_zero_results_80x24 (80x24 unless noted) ---
+♪ freegal  [● Home] │ My Music │ Queue │ History │ Downloads       not signed in
+╭──────────────────────────────────────────────────────────────────────────────╮
+  zzzz                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+
+
+
+
+
+
+                           No results found for "zzzz"
+                  try checking spelling or using fewer keywords
+
+
+
+
+
+
+
+
+[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit
+
+================================================================================
+08 · MY MUSIC TAB — root
+================================================================================
+intention : Web parity of Freegal's My-Music composite page, i.e. the patron's own server-side data: My Playlists, Downloaded Songs, Favorites, Wishlist, in the web's order, headings clickable like Home, 4 items each. When the server answers with the empty codes (46/115) the section still renders its heading above the SITE'S OWN empty-state sentence, so an empty patron looks intentionally empty, never broken. This patron is empty server-side today — which is exactly what the design anticipates.
+keys      : ↑↓ jk · g G · Enter open (heading = drill) · playlist rows jump to Home and open the playlist · Enter on songs plays (rest queued) · a queue · y download · R refetch · 1-5 tabs
+api       : user/playlists (rc 115 = none) · user/downloaded/songs (rc 46 = none) · wishlist/songs?contentType=favorite (46) · wishlist/songs?contentType=wishlist (46)
+empty     : per-section web phrasing: 'Your created playlists will appear here.' · 'Your downloaded songs will appear here.' · 'Your Favorite Songs, Playlists, Albums will appear here.' · 'Your Wishlist Songs will appear here.'
+notes     : favorites show SONGS only (web also rails favorite albums/playlists — omitted; wishlist/books rc 640 = audiobooks unavailable, section omitted)
+
+--- panel: snapshot_my_music_root_80x24 (80x24 unless noted) ---
+♪ freegal  Home │ [● My Music] │ Queue │ History │ Downloads       not signed in
+╭──────────────────────────────────────────────────────────────────────────────╮
+   🔍 Search songs, artists, albums — press / to type                          │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+     → My Playlists
+1    Road Trip 2026                         Highway tracks            24 son
+     → Downloaded Songs
+2    Weightless                             Marconi Union             8:01
+     → Favorites
+     Your Favorite Songs, Playlists, Album
+     → Wishlist
+     Your Wishlist Songs will appear here.
+
+
+
+
+
+
+
+
+[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit
+
+================================================================================
+09 · MY MUSIC TAB — drills (playlists / downloaded / favorites / wishlist)
+================================================================================
+intention : The full 50-row view of any My-Music section; song drills behave like all song lists (play/queue/download), playlist drills behave like Home playlists. Empty drills repeat the section's web empty-state line.
+keys      : ↑↓ jk · g G · Enter play/open · a queue · y download · Esc pop
+api       : same endpoints at MUSIC_DRILL_LIMIT=50
+empty     : 'Your created playlists will appear here.' (playlists) / 'nothing here yet' (songs views)
+
+--- panel: snapshot_my_music_wishlist_drill_80x24 (80x24 unless noted) ---
+♪ freegal  Home │ [● My Music] │ Queue │ History │ Downloads       not signed in
+ My Music
+1    Save for Later                         Later Band                 3:34
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                            1 tracks · Esc: back
+[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit
+
+================================================================================
+10 · QUEUE TAB
+================================================================================
+intention : The local play queue: what's playing, what's next, free reordering. Loop one toggles with l; click-to-seek on the progress bar; o opens the audio output menu.
+keys      : ↑↓ jk · Enter jump to track · d remove · space pause · n/,/. player keys · l loop one · o output device · Ctrl-C etc as global
+api       : stream tickets with 30-min cache (TICKET_TTL_SECS=1800)
+empty     : 'queue is empty' state
+notes     : player keys work from any tab when not typing
+
+--- panel: snapshot_queue_tab_80x24 (80x24 unless noted) ---
+♪ freegal  Home │ My Music │ [● Queue] │ History │ Downloads       not signed in
+the queue is empty
+add tracks from Home or Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit
+
+================================================================================
+11 · HISTORY TAB
+================================================================================
+intention : Local-only 200-entry log of what streamed on this machine (never uploaded anywhere) with text filter; Enter re-streams the stored song.
+keys      : ↑↓ jk · / focus filter · Enter re-stream · D clear all (modal; y confirms — Enter NEVER confirms)
+api       : history.json (~/.config/freegal/history.json, cap 200)
+empty     : 'no history yet' + snapshot_history_empty
+
+--- panel: snapshot_history_empty_80x24 (80x24 unless noted) ---
+♪ freegal  Home │ My Music │ Queue │ [● History] │ Downloads       not signed in
+╭──────────────────────────────────────────────────────────────────────────────╮
+   🔍 Filter played songs — / to edit                                          │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Played    Title                     Artist                Album
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+no history yet — play something
+[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit
+
+--- panel: snapshot_history_populated_80x24 (80x24 unless noted) ---
+♪ freegal  Home │ My Music │ Queue │ [● History] │ Downloads       not signed in
+╭──────────────────────────────────────────────────────────────────────────────╮
+   🔍 Filter played songs — / to edit                                          │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Played    Title                     Artist                Album
+just now  Some Long Song Title Tha  Abba                  Arrival
+9m        Short Song                Cher                  Living Proof
+39m       Instrumental              ABBA                  Arrival
+
+
+
+
+
+
+
+
+
+
+
+3 played
+[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit
+
+================================================================================
+12 · DOWNLOADS TAB
+================================================================================
+intention : The bridge between web-claimed downloads and this machine: lists songs downloaded through the TUI (DownloadRow local registry), re-download eligibility (server credit rules: a song can be claimed twice), and marks downloaded ids fetched from user/downloaded/songsIds.
+keys      : Enter re-open · y re-download when eligible · 1-5 tabs
+api       : user/downloaded/songsIds (rc 174 = none) + download/redownload endpoints
+empty     : 'nothing downloaded yet'
+notes     : the Downloads TAB stays the dedicated surface; the My Music 'Downloaded Songs' section shows the same server-side list inline for web parity
+
+--- panel: snapshot_downloads_populated_80x24 (80x24 unless noted) ---
+♪ freegal  Home │ My Music │ Queue │ History │ [● Downloads]       not signed in
+
+Title                Artist               File
+Bohemian Rhapsody    Queen                01 Bohemian Rhapsody.mp3
+Some Long Song Titl  Abba                 02 Long Title.mp3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit
+
+================================================================================
+13 · MODAL — download confirm (O1)
+================================================================================
+intention : Downloads SPEND a library credit, so the confirm modal gates every claim: song + remaining-credit math, y = confirm, n/Esc/Enter = cancel. Enter never confirms — an accident-proof convention across all modals.
+keys      : y confirm · n / Esc / Enter cancel
+api       : download_song/redownload_song
+empty     : nord theme variant = same structure
+
+--- panel: snapshot_download_confirm_80x24 (80x24 unless noted) ---
+♪ freegal  [● Home] │ My Music │ Queue │ History │ Downloads       not signed in
+
+
+
+
+
+
+
+         ╭ download ──────────────────────────────────────────────────╮
+         │  Some Long Song Title That Should Truncate At Thirty Char  │
+         │  Abba · Arrival                                            │
+         │  Uses 1 credit                                             │
+         │  y: confirm · n/Esc/Enter: cancel                          │
+         │                                                            │
+         │                                                            │
+         ╰────────────────────────────────────────────────────────────╯
+
+
+
+
+
+[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit
+
+--- panel: snapshot_nord_download_confirm_80x24 (80x24 unless noted) ---
+♪ freegal  [● Home] │ My Music │ Queue │ History │ Downloads       not signed in
+
+
+
+
+
+
+
+         ┌ download ──────────────────────────────────────────────────┐
+         │  Some Long Song Title That Should Truncate At Thirty Char  │
+         │  Abba · Arrival                                            │
+         │  Uses 1 credit                                             │
+         │  y: confirm · n/Esc/Enter: cancel                          │
+         │                                                            │
+         │                                                            │
+         └────────────────────────────────────────────────────────────┘
+
+
+
+
+
+[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit
+
+================================================================================
+14 · MODAL — clear history confirm
+================================================================================
+intention : Same modal family for destructive D on the History tab.
+keys      : y confirm · n / Esc / Enter cancel
+api       : —
+empty     : —
+
+--- panel: snapshot_clear_history_confirm_80x24 (80x24 unless noted) ---
+♪ freegal  Home │ My Music │ Queue │ [● History] │ Downloads       not signed in
+
+
+
+
+
+
+
+
+                  ╭ clear history ───────────────────────────╮
+                  │  Forget all 3 played entries?            │
+                  │  y: clear · n/Esc: cancel                │
+                  │                                          │
+                  ╰──────────────────────────────────────────╯
+
+
+
+
+
+
+
+[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit
+
+================================================================================
+15 · OVERLAY — help (?)
+================================================================================
+intention : The keymap cheat-sheet; captures all keys so it can be closed with any of the common escapes.
+keys      : ? open · Esc/?/q close
+api       : —
+empty     : —
+
+--- panel: snapshot_help_overlay_80x24 (80x24 unless noted) ---
+♪ freegal  [● Home] │ My Music │ Queue │ History │ Downloads       not signed in
+
+
+  ╭ help ────────────────────────────────────────────────────────────────────╮
+  │  Esc closes · keys are focus-scoped                                      │
+  │                                                                          │
+  │  1-5 / s m q d h switch tab        /               edit search / filter  │
+  │  Enter           play now          a / A           append / play next    │
+  │  y               download          S               cycle sort            │
+  │  D               clear history     Space           play-pause            │
+  │  n / p           next / prev       , / .           seek 5s               │
+  │  - / + / =       volume            l               loop current song     │
+  │  d               remove queue row  J / K           move queue row        │
+  │  Esc             back              g / G           top / bottom          │
+  │  R / e           retry / error log ?               help                  │
+  │  o               audio output      Ctrl-Q / Ctrl-C quit                  │
+  │                                                                          │
+  │  personal use · your library card · human pace                           │
+  │                                                                          │
+  ╰──────────────────────────────────────────────────────────────────────────╯
+
+[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit
+
+================================================================================
+16 · OVERLAY — error log (e)
+================================================================================
+intention : Scrollable log of everything the app traced (the tracing:: lines), so API hiccups are visible without a terminal restart.
+keys      : e open · ↑↓ scroll · Esc close
+api       : in-memory ring of tracing events
+empty     : —
+
+--- panel: snapshot_errors_overlay_80x24 (80x24 unless noted) ---
+♪ freegal  [● Home] │ My Music │ Queue │ History │ Downloads       not signed in
+
+
+
+
+
+
+
+ ╭ errors (newest last) ──────────────────────────────────────────────────────╮
+ │  search failed: 61: invalid session — re-login                             │
+ │  download failed: HTTP 502                                                 │
+ │  playback unavailable (connection lost)                                    │
+ │                                                                            │
+ │                                                                            │
+ ╰────────────────────────────────────────────────────────────────────────────╯
+
+
+
+
+
+
+[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit
+
+================================================================================
+17 · OVERLAY — audio output menu (o)
+================================================================================
+intention : mpv audio-device picker: lists all sinks, Enter applies instantly.
+keys      : o open · ↑↓ · Enter apply · Esc cancel
+api       : mpv IPC 'audio-device-list'
+empty     : —
+
+--- panel: snapshot_audio_menu_80x24 (80x24 unless noted) ---
+♪ freegal  [● Home] │ My Music │ Queue │ History │ Downloads       not signed in
+
+
+
+
+
+
+
+         ╭ audio output ──────────────────────────────────────────────╮
+         │    pipewire System default (PipeWire)                      │
+         │  ▶ pipewire/bluez_output.68_F2_1F_3E… Obsidian 2           │
+         │    alsa/sysdefault:CARD=sofsoundwire sof-soundwire speake  │
+         │                                                            │
+         │  Enter: use · Esc: cancel                                  │
+         ╰────────────────────────────────────────────────────────────╯
+
+
+
+
+
+
+[Enter] play · [a] queue · [y] download · [?] help · [1-5] tabs · [Ctrl-Q] quit
+
+================================================================================
+18 · CHROME — ladder modes
+================================================================================
+intention : Pure-function layout ladder (chrome::layout_ladder) degrades by size: Full (footer+hint), NoHint, FoldedTabs, Minimal (bar+header only). Below the floor the screen becomes just the too-small card.
+keys      : —
+api       : 80x24 Full · 80x18 NoHint · 60x14 FoldedTabs · 40x10 Minimal
+empty     : —
+notes     : the 40x10 floor test doubles as the Home too-small snapshot
+
+--- panel: snapshot_too_small_card_40x10 (80x24 unless noted) ---
+♪ freegal
+╭ Home ────────────────────────────────╮
+│    press R to load the home feeds    │
+│                                      │
+│                                      │
+│                                      │
+│                                      │
+╰──────────────────────────────────────╯
+
+--- panel: snapshot_home_too_small_40x10 (80x24 unless noted) ---
+♪ freegal
+╭ Home ────────────────────────────────╮
+│      → Featured S                    │
+│  1   Golden Hour  Kacey Musg -       │
+│  2   Midnight Cit M83        4:03    │
+│                                      │
+│                                      │
+╰──────────────────────────────────────╯
+
+================================================================================
+19 · CHROME — bar (now playing) + toasts
+================================================================================
+intention : The 2-row bottom bar owns playback status: title/artist, progress gauge (click = seek), volume, loop glyph ↻, spinner during network waits; toasts slide in above it (appended/queued next/downloaded).
+keys      : space pause · ←→ skip ±5s? · , . volume · seek = mouse click on gauge row
+api       : mpv IPC status events
+empty     : —
+notes     : hint bar (footer) shows the durable key hints incl. [1-5] tabs
+
+================================================================================
+PANEL REGENERATION
+================================================================================
+  $ INSTA_UPDATE=always cargo test --release snapshot_
+  $ # per-file review:  git diff -- 'src/ui/snapshots/*.snap'
+  $ rm -f src/ui/snapshots/*.snap.new
+  $ python3 /tmp/opencode/gen_interfaces.py   # regenerates this file
+  (generator lives in /tmp for one-shot use; its intent text is hereby
+   preserved in-file: re-derive it from specs/02-tui.md + the snapshot list
+   if the script is gone.)
+
+END OF REFERENCE
+================================================================================
