@@ -2460,6 +2460,7 @@ impl App {
                 if self.player_status.paused == Some(true) {
                     self.flush_stream_time();
                 }
+                crate::barstatus::write(self);
             }
             PlayerEvent::BufferingDone => {}
             PlayerEvent::Connected => {

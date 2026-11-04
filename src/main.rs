@@ -1,5 +1,6 @@
 mod api;
 mod app;
+mod barstatus;
 mod history;
 mod home;
 mod mymusic;
@@ -153,6 +154,7 @@ fn run_tui(
             break;
         }
     }
+    barstatus::clear();
     Ok(())
 }
 

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "freegal.now-playing",
+  "name": "Freegal Now Playing",
+  "version": "1.0.0",
+  "author": "icyavocado",
+  "description": "The song playing in freegal; click to open the TUI",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "NowPlaying.qml"
+  },
+  "barWidget": {
+    "displayName": "Freegal Now Playing",
+    "description": "Shows the track playing in freegal-tui; click opens it in your terminal",
+    "category": "Media",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}

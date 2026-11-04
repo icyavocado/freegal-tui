@@ -46,6 +46,8 @@ The Home dashboard — real session, signed in and playing:
 - **Caching** — a 30-minute catalog cache and stream-ticket reuse, so browsing
   is fast and the API sees human-pace traffic
 - **Mouse support** — click rows, tabs, quick links, breadcrumbs, the progress bar
+- **omarchy widget** — now-playing in the status bar; click opens the TUI
+  (`scripts/install-omarchy.sh`)
 
 ## Roadmap
 
