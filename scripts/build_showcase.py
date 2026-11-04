@@ -70,6 +70,17 @@ TEMPLATE = r"""<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>freegal-tui — your library, in the terminal</title>
 <meta name="description" content="Interactive terminal demo of freegal-tui: browse, stream and download Freegal Music without the web UI. Rust + ratatui + mpv.">
+<meta property="og:title" content="freegal-tui — your library, in the terminal">
+<meta property="og:description" content="Browse, stream and download Freegal Music without the web UI. Rust + ratatui + mpv.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://icyavocado.github.io/freegal-tui/">
+<meta property="og:image" content="https://icyavocado.github.io/freegal-tui/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="freegal-tui — your library, in the terminal">
+<meta name="twitter:description" content="Browse, stream and download Freegal Music without the web UI.">
+<meta name="twitter:image" content="https://icyavocado.github.io/freegal-tui/og-card.png">
 <style>
 :root {
   --bg: #1a1b26; --bg-card: #1e2030; --fg: #c0caf5; --dim: #565f89;
