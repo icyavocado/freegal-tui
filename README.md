@@ -16,6 +16,7 @@ stream, and use your weekly download credits — all from the terminal.
 
 - [Interface](#interface)
 - [Features](#features)
+- [Roadmap](#roadmap)
 - [Build & run](#build--run)
 - [Keys](#keys)
 - [Ethical use](#ethical-use-only)
@@ -45,6 +46,16 @@ The Home dashboard — real session, signed in and playing:
 - **Caching** — a 30-minute catalog cache and stream-ticket reuse, so browsing
   is fast and the API sees human-pace traffic
 - **Mouse support** — click rows, tabs, quick links, breadcrumbs, the progress bar
+
+## Roadmap
+
+- **Desktop entry** — click freegal in your app launcher and it opens in your
+  default terminal: a freedesktop `.desktop` file plus a small install script,
+  nothing you don't already have needed. Spec'd out, not built yet.
+- **Portable CI builds** — release-attached binaries for `linux-amd64`,
+  `macos-arm64` and `windows-amd64`, single-file, no installers. macOS is within
+  reach; Windows needs the mpv IPC reworked from Unix sockets to named pipes
+  before playback would work there.
 
 ## Build & run
 
